@@ -1,0 +1,213 @@
+{
+  "trade_date": "2026-06-22",
+  "data_layer_version": "cloud-data-v1-local-public-cache",
+  "generated_at": "2026-06-25T17:44:59",
+  "data_status": "本地正式复盘缓存导出",
+  "market_index": {
+    "sh_index": 4163.1,
+    "sh_change_pct": 1.78,
+    "sz_index": 16372.5,
+    "sz_change_pct": 2.13,
+    "cyb_index": 4359.39,
+    "cyb_change_pct": 2.52,
+    "turnover_amount_billion": 37624.0,
+    "turnover_delta_billion": 4303.0
+  },
+  "market_breadth": {
+    "up_count": 2916,
+    "down_count": 2468
+  },
+  "limit_up_down": {
+    "limit_up_count": 134,
+    "limit_down_count": 33,
+    "max_board_height": 5,
+    "max_board_stock_name": "旭光电子",
+    "max_board_stock_code": "600353"
+  },
+  "capital_flow": {
+    "inflow_top": [
+      {
+        "flow_type": "流入",
+        "target_type": "板块",
+        "target_name": "证券II",
+        "target_code": null,
+        "net_amount_billion": 10.56,
+        "rank_no": 1,
+        "notes": "金投网行业资金：证券II主力净流入105.61亿元，行业涨幅6.43%，代表东方财富。"
+      },
+      {
+        "flow_type": "流入",
+        "target_type": "板块",
+        "target_name": "工业金属",
+        "target_code": null,
+        "net_amount_billion": 5.46,
+        "rank_no": 2,
+        "notes": "金投网行业资金：工业金属主力净流入54.57亿元，代表洛阳钼业。"
+      },
+      {
+        "flow_type": "流入",
+        "target_type": "板块",
+        "target_name": "小金属",
+        "target_code": null,
+        "net_amount_billion": 4.07,
+        "rank_no": 3,
+        "notes": "金投网行业资金：小金属主力净流入40.72亿元，代表北方稀土。"
+      }
+    ],
+    "outflow_top": [
+      {
+        "flow_type": "流出",
+        "target_type": "板块",
+        "target_name": "元件",
+        "target_code": null,
+        "net_amount_billion": -12.85,
+        "rank_no": 1,
+        "notes": "金投网行业资金：元件主力净流出128.50亿元，科技硬件高位资金分歧。"
+      },
+      {
+        "flow_type": "流出",
+        "target_type": "板块",
+        "target_name": "消费电子",
+        "target_code": null,
+        "net_amount_billion": -7.38,
+        "rank_no": 2,
+        "notes": "金投网行业资金：消费电子主力净流出73.76亿元。"
+      },
+      {
+        "flow_type": "流出",
+        "target_type": "板块",
+        "target_name": "半导体",
+        "target_code": null,
+        "net_amount_billion": -7.38,
+        "rank_no": 3,
+        "notes": "金投网行业资金：半导体主力净流出73.75亿元。"
+      }
+    ],
+    "notes": "由本地正式复盘缓存导出，非云端原始采集。"
+  },
+  "theme_candidates": [
+    {
+      "rank_no": 1,
+      "theme_name": "大金融/证券保险",
+      "grade": "S",
+      "lifecycle_stage": "发酵期",
+      "capital_strength": "强",
+      "sustainability_score": 90,
+      "expected_heat": "★★★★☆",
+      "capital_flow_direction": "↑流入增加",
+      "logic_summary": "周期类型短线T+3：金投网行业资金显示证券II净流入105.61亿元居首、保险II净流入12.48亿元；新华财经和证券时报均记录午后保险、证券、银行拉升，东方财富、长江证券、中信建投、新华保险等核心显著带动指数。",
+      "next_observation": "观察东方财富、长江证券、中信建投、新华保险能否延续成交和资金承接。",
+      "representative_stocks": "东方财富,长江证券,中信建投,新华保险,广发证券",
+      "validation_horizon_days": 3,
+      "validation_horizon_label": "短线T+3"
+    },
+    {
+      "rank_no": 2,
+      "theme_name": "有色金属/工业金属/小金属",
+      "grade": "A",
+      "lifecycle_stage": "主升期",
+      "capital_strength": "强",
+      "sustainability_score": 86,
+      "expected_heat": "★★★★☆",
+      "capital_flow_direction": "↑流入增加",
+      "logic_summary": "周期类型短线T+3：金投网行业资金显示工业金属净流入54.57亿元、小金属净流入40.72亿元；连板分析显示有色金属板块超20股涨停，江钨装备4连板，资源股仍有较强宽度。",
+      "next_observation": "观察江钨装备、洛阳钼业、北方稀土、中钨高新、厦门钨业能否继续保持宽度。",
+      "representative_stocks": "江钨装备,洛阳钼业,北方稀土,中钨高新,厦门钨业",
+      "validation_horizon_days": 3,
+      "validation_horizon_label": "短线T+3"
+    },
+    {
+      "rank_no": 3,
+      "theme_name": "培育钻石/AI散热材料",
+      "grade": "A",
+      "lifecycle_stage": "发酵期",
+      "capital_strength": "中强",
+      "sustainability_score": 80,
+      "expected_heat": "★★★☆☆",
+      "capital_flow_direction": "↑流入增加",
+      "logic_summary": "周期类型短线T+3：新华财经和证券时报报道提及培育钻石、算力新材料活跃，催化来自英特尔CEO访谈中提到人造钻石等材料科学方向；力量钻石、四方达、黄河旋风等涨停。",
+      "next_observation": "观察四方达、力量钻石、黄河旋风能否继续形成AI散热材料分支扩散。",
+      "representative_stocks": "四方达,力量钻石,黄河旋风",
+      "validation_horizon_days": 3,
+      "validation_horizon_label": "短线T+3"
+    }
+  ],
+  "leader_candidates": [
+    {
+      "leader_type": "市场总龙头",
+      "stock_name": "旭光电子",
+      "stock_code": "600353",
+      "sector": "算力硬件/电子材料",
+      "board_height": 5,
+      "grade": "S",
+      "status": "加速",
+      "reason": "周期类型短期T+1：财联社/新浪转载连板分析披露旭光电子晋级5连板，为当日连板高度；公司公告提示短期涨幅较大和非理性炒作风险，定位为市场情绪高度，不定义为金融主线龙头。",
+      "validation_horizon_days": 1,
+      "validation_horizon_label": "短期T+1"
+    },
+    {
+      "leader_type": "主线龙头",
+      "stock_name": "东方财富",
+      "stock_code": "300059",
+      "sector": "证券/互联网金融",
+      "board_height": 0,
+      "grade": "S",
+      "status": "换手",
+      "reason": "周期类型短线T+3：金投网深市个股资金显示东方财富主力净流入36.72亿元，证券II行业净流入105.61亿元居首；其涨幅12.74%，是金融主线容量核心。",
+      "validation_horizon_days": 3,
+      "validation_horizon_label": "短线T+3"
+    },
+    {
+      "leader_type": "趋势龙头",
+      "stock_name": "洛阳钼业",
+      "stock_code": "603993",
+      "sector": "工业金属",
+      "board_height": 0,
+      "grade": "A",
+      "status": "换手",
+      "reason": "周期类型中期T+7：金投网行业资金显示工业金属净流入54.57亿元且净流入最大股代表为洛阳钼业，适合作为资源趋势核心跟踪。",
+      "validation_horizon_days": 7,
+      "validation_horizon_label": "中期T+7"
+    },
+    {
+      "leader_type": "情绪龙",
+      "stock_name": "江钨装备",
+      "stock_code": "600397",
+      "sector": "小金属/钨",
+      "board_height": 4,
+      "grade": "A",
+      "status": "加速",
+      "reason": "周期类型短期T+1：连板分析显示江钨装备4连板，证券时报报道其连续涨停并上榜龙虎榜，承接有色小金属情绪高度。",
+      "validation_horizon_days": 1,
+      "validation_horizon_label": "短期T+1"
+    },
+    {
+      "leader_type": "补涨龙",
+      "stock_name": "四方达",
+      "stock_code": "300179",
+      "sector": "培育钻石/AI散热",
+      "board_height": 1,
+      "grade": "A",
+      "status": "加速",
+      "reason": "周期类型短期T+1：证券时报创业板龙虎榜数据披露四方达20cm涨停，深股通净买入3.22亿元、营业部净买入居前，属于培育钻石分支弹性核心。",
+      "validation_horizon_days": 1,
+      "validation_horizon_label": "短期T+1"
+    }
+  ],
+  "hotspot_factors": [],
+  "source_manifest": {
+    "sources": [
+      {
+        "name": "本地正式复盘缓存",
+        "type": "formal_report_cache",
+        "trade_date": "2026-06-22",
+        "note": "用于测试云端数据 URL 链路；正式云端上线后应替换为云端原始数据采集包。"
+      }
+    ],
+    "snapshots": []
+  },
+  "data_conflicts": [
+    "涨停数量冲突：财联社/新浪转载连板股分析披露今日共134股涨停；大洋网披露151只涨停、30只跌停；搜狐历史数据披露155只涨停、33只跌停；金融界搜索片段披露153只涨停、33只跌停。最终涨停采用134，原因是任务数据源优先级中财联社优先且为非ST/退市连板分析口径；跌停采用33，原因是搜狐历史数据与金融界片段一致且财联社未给出完整跌停口径。上涨下跌家数冲突：搜狐历史数据沪深京合计上涨2916、下跌2468；新浪个人复盘片段为上涨2956、下跌2495。最终采用2916/2468，原因是搜狐历史表可复验且与大洋网报道一致。成交额冲突：新华财经披露沪深京三市成交总额37624亿元、放量约4303亿元；大洋网披露沪深两市成交额约37371.99亿元、放量约4270.92亿元。最终采用新华财经沪深京三市口径37624/4303。"
+  ],
+  "confidence_score": 45
+}
