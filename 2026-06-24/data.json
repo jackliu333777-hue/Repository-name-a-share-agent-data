@@ -1,0 +1,213 @@
+{
+  "trade_date": "2026-06-24",
+  "data_layer_version": "cloud-data-v1-local-public-cache",
+  "generated_at": "2026-06-25T17:44:59",
+  "data_status": "本地正式复盘缓存导出",
+  "market_index": {
+    "sh_index": 4110.81,
+    "sh_change_pct": 0.11,
+    "sz_index": 16051.32,
+    "sz_change_pct": 1.24,
+    "cyb_index": 4251.42,
+    "cyb_change_pct": 1.41,
+    "turnover_amount_billion": 33069.46,
+    "turnover_delta_billion": -1564.36
+  },
+  "market_breadth": {
+    "up_count": 1434,
+    "down_count": 4034
+  },
+  "limit_up_down": {
+    "limit_up_count": 98,
+    "limit_down_count": 12,
+    "max_board_height": 4,
+    "max_board_stock_name": "东方锆业",
+    "max_board_stock_code": "002167"
+  },
+  "capital_flow": {
+    "inflow_top": [
+      {
+        "flow_type": "流入",
+        "target_type": "板块",
+        "target_name": "电子",
+        "target_code": "BK1201",
+        "net_amount_billion": 28.22,
+        "rank_no": 1,
+        "notes": "东方财富板块主力资金接口显示电子净流入约282.23亿元，资金迁徙首位。"
+      },
+      {
+        "flow_type": "流入",
+        "target_type": "板块",
+        "target_name": "半导体",
+        "target_code": "BK1036",
+        "net_amount_billion": 21.25,
+        "rank_no": 2,
+        "notes": "东方财富板块主力资金接口显示半导体净流入约212.53亿元，兆易创新、长电科技、聚辰股份等涨停。"
+      },
+      {
+        "flow_type": "流入",
+        "target_type": "板块",
+        "target_name": "消费电子零部件及组装",
+        "target_code": "BK1338",
+        "net_amount_billion": 8.53,
+        "rank_no": 3,
+        "notes": "东方财富板块主力资金接口显示消费电子零部件及组装净流入约85.30亿元，领益智造、深科技等涨停。"
+      }
+    ],
+    "outflow_top": [
+      {
+        "flow_type": "流出",
+        "target_type": "板块",
+        "target_name": "通信",
+        "target_code": "BK1215",
+        "net_amount_billion": -5.94,
+        "rank_no": 1,
+        "notes": "东方财富板块主力资金接口显示通信净流出约59.41亿元。"
+      },
+      {
+        "flow_type": "流出",
+        "target_type": "板块",
+        "target_name": "通信设备",
+        "target_code": "BK0448",
+        "net_amount_billion": -5.9,
+        "rank_no": 2,
+        "notes": "东方财富板块主力资金接口显示通信设备净流出约59.02亿元，前期AI硬件分支出现资金退潮。"
+      },
+      {
+        "flow_type": "流出",
+        "target_type": "板块",
+        "target_name": "非银金融",
+        "target_code": "BK1203",
+        "net_amount_billion": -4.56,
+        "rank_no": 3,
+        "notes": "东方财富板块主力资金接口显示非银金融净流出约45.61亿元。"
+      }
+    ],
+    "notes": "由本地正式复盘缓存导出，非云端原始采集。"
+  },
+  "theme_candidates": [
+    {
+      "rank_no": 1,
+      "theme_name": "电子/半导体/消费电子",
+      "grade": "S",
+      "lifecycle_stage": "主升期",
+      "capital_strength": "强",
+      "sustainability_score": 92,
+      "expected_heat": "★★★★☆",
+      "capital_flow_direction": "↑流入增加",
+      "logic_summary": "周期类型短线T+3：东方财富板块资金显示电子、半导体、消费电子相关方向净流入居前，涨停池中兆易创新、长电科技、聚辰股份、汇成股份、深科技、领益智造等容量核心涨停，龙虎榜机构与北向资金集中参与。",
+      "next_observation": "观察领益智造、兆易创新、长电科技、深科技、聚辰股份能否保持成交和资金承接。",
+      "representative_stocks": "领益智造,兆易创新,长电科技,深科技,聚辰股份",
+      "validation_horizon_days": 3,
+      "validation_horizon_label": "短线T+3"
+    },
+    {
+      "rank_no": 2,
+      "theme_name": "能源金属/锂",
+      "grade": "A",
+      "lifecycle_stage": "发酵期",
+      "capital_strength": "中强",
+      "sustainability_score": 82,
+      "expected_heat": "★★★☆☆",
+      "capital_flow_direction": "↑流入增加",
+      "logic_summary": "周期类型短线T+3：东方财富行业涨幅榜显示锂、能源金属涨幅居前且主力净流入为正，永杉锂业、融捷股份、盛新锂能等涨停，属于电子主线外的资源分支承接。",
+      "next_observation": "观察永杉锂业、融捷股份、盛新锂能是否继续强化资源分支。",
+      "representative_stocks": "永杉锂业,融捷股份,盛新锂能",
+      "validation_horizon_days": 3,
+      "validation_horizon_label": "短线T+3"
+    },
+    {
+      "rank_no": 3,
+      "theme_name": "小金属/锆金属",
+      "grade": "A",
+      "lifecycle_stage": "分歧期",
+      "capital_strength": "中",
+      "sustainability_score": 76,
+      "expected_heat": "★★★☆☆",
+      "capital_flow_direction": "资金流出",
+      "logic_summary": "周期类型短线T+3：东方锆业4连板、云南锗业涨停并有龙虎榜机构参与，但东方财富板块资金显示小金属整体净流出，说明高度还在、资金已有分歧。",
+      "next_observation": "观察东方锆业、云南锗业能否化解资金分歧；若小金属继续净流出则降级为局部情绪。",
+      "representative_stocks": "东方锆业,云南锗业,驰宏锌锗",
+      "validation_horizon_days": 3,
+      "validation_horizon_label": "短线T+3"
+    }
+  ],
+  "leader_candidates": [
+    {
+      "leader_type": "市场总龙头",
+      "stock_name": "东方锆业",
+      "stock_code": "002167",
+      "sector": "小金属",
+      "board_height": 4,
+      "grade": "S",
+      "status": "换手",
+      "reason": "周期类型短期T+1：东方财富涨停池显示4连板，为当日最高连板候选之一；新浪龙虎榜报道提及4连板东方锆业且游资席位净买入居前，具备全市场情绪高度，但小金属板块资金分歧，不能定义为主线龙头。",
+      "validation_horizon_days": 1,
+      "validation_horizon_label": "短期T+1"
+    },
+    {
+      "leader_type": "主线龙头",
+      "stock_name": "领益智造",
+      "stock_code": "002600",
+      "sector": "消费电子",
+      "board_height": 1,
+      "grade": "S",
+      "status": "换手",
+      "reason": "周期类型短线T+3：涨停成交约73.05亿元，龙虎榜单日净买入约13.35亿元，机构净买入约3.39亿元，深股通净买入约2.39亿元；同时消费电子和电子板块主力净流入居前。",
+      "validation_horizon_days": 3,
+      "validation_horizon_label": "短线T+3"
+    },
+    {
+      "leader_type": "趋势龙头",
+      "stock_name": "兆易创新",
+      "stock_code": "603986",
+      "sector": "半导体",
+      "board_height": 1,
+      "grade": "S",
+      "status": "加速",
+      "reason": "周期类型中期T+7：东方财富涨停池显示兆易创新涨停，成交约399.45亿元，是半导体容量趋势核心；半导体板块资金净流入约212.53亿元。",
+      "validation_horizon_days": 7,
+      "validation_horizon_label": "中期T+7"
+    },
+    {
+      "leader_type": "资金核心",
+      "stock_name": "长电科技",
+      "stock_code": "600584",
+      "sector": "半导体",
+      "board_height": 1,
+      "grade": "A",
+      "status": "换手",
+      "reason": "周期类型短线T+3：东方财富涨停池显示长电科技涨停，成交约237.89亿元，属于半导体封测容量资金核心。",
+      "validation_horizon_days": 3,
+      "validation_horizon_label": "短线T+3"
+    },
+    {
+      "leader_type": "补涨龙",
+      "stock_name": "深科技",
+      "stock_code": "000021",
+      "sector": "消费电子",
+      "board_height": 1,
+      "grade": "A",
+      "status": "加速",
+      "reason": "周期类型短期T+1：东方财富涨停池显示深科技涨停，成交约91.66亿元；龙虎榜净买入额位居前列，承接消费电子和电子主线补涨。",
+      "validation_horizon_days": 1,
+      "validation_horizon_label": "短期T+1"
+    }
+  ],
+  "hotspot_factors": [],
+  "source_manifest": {
+    "sources": [
+      {
+        "name": "本地正式复盘缓存",
+        "type": "formal_report_cache",
+        "trade_date": "2026-06-24",
+        "note": "用于测试云端数据 URL 链路；正式云端上线后应替换为云端原始数据采集包。"
+      }
+    ],
+    "snapshots": []
+  },
+  "data_conflicts": [
+    "涨停/跌停数量冲突：东方财富涨停池20260624返回tc=98、跌停池返回tc=12；新浪收评片段显示98家涨停、12家真实跌停；同花顺搜索片段显示涨停106只、跌停58只但无法打开二次核验。最终采用98/12，原因是东方财富接口可复验且与新浪收评片段一致。成交额口径差异：新浪片段披露全市场总成交额33069.46亿元；东方财富沪深指数K线合计为32843.28亿元、较前一交易日减少1564.36亿元，未含北交所等全市场差异。最终成交额采用33069.46亿元，增减采用沪深合计估算-1564.36亿元。上涨/下跌家数采用新浪/同花顺片段1434/4034，东方财富接口未稳定返回全市场涨跌家数。"
+  ],
+  "confidence_score": 45
+}
