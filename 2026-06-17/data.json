@@ -1,0 +1,195 @@
+{
+  "trade_date": "2026-06-17",
+  "data_layer_version": "cloud-data-v1-local-public-cache",
+  "generated_at": "2026-06-25T17:44:59",
+  "data_status": "本地正式复盘缓存导出",
+  "market_index": {
+    "sh_index": 4108.08,
+    "sh_change_pct": 0.4,
+    "sz_index": 15880.95,
+    "sz_change_pct": 1.31,
+    "cyb_index": 4167.05,
+    "cyb_change_pct": 1.56,
+    "turnover_amount_billion": 30917.64,
+    "turnover_delta_billion": 270.68
+  },
+  "market_breadth": {
+    "up_count": 1626,
+    "down_count": 3589
+  },
+  "limit_up_down": {
+    "limit_up_count": 86,
+    "limit_down_count": 1,
+    "max_board_height": 3,
+    "max_board_stock_name": "华正新材",
+    "max_board_stock_code": "603186"
+  },
+  "capital_flow": {
+    "inflow_top": [
+      {
+        "flow_type": "流入",
+        "target_type": "板块",
+        "target_name": "元件",
+        "target_code": null,
+        "net_amount_billion": null,
+        "rank_no": 1,
+        "notes": "东方财富涨停池行业分布：元件10只，作为热度代理；板块主力净额接口空响应。"
+      },
+      {
+        "flow_type": "流入",
+        "target_type": "板块",
+        "target_name": "光学光电",
+        "target_code": null,
+        "net_amount_billion": null,
+        "rank_no": 2,
+        "notes": "东方财富涨停池行业分布：光学光电9只。"
+      },
+      {
+        "flow_type": "流入",
+        "target_type": "板块",
+        "target_name": "半导体",
+        "target_code": null,
+        "net_amount_billion": null,
+        "rank_no": 3,
+        "notes": "东方财富涨停池行业分布：半导体3只，兆易创新、盛美上海、普冉股份涨停。"
+      }
+    ],
+    "outflow_top": [
+      {
+        "flow_type": "流出",
+        "target_type": "板块",
+        "target_name": "无法确认",
+        "target_code": null,
+        "net_amount_billion": null,
+        "rank_no": 1,
+        "notes": "板块主力资金流出接口空响应，无法确认。"
+      }
+    ],
+    "notes": "由本地正式复盘缓存导出，非云端原始采集。"
+  },
+  "theme_candidates": [
+    {
+      "rank_no": 1,
+      "theme_name": "电子硬件/元件/光学光电/半导体",
+      "grade": "S",
+      "lifecycle_stage": "主升期",
+      "capital_strength": "强",
+      "sustainability_score": 91,
+      "expected_heat": "★★★★★",
+      "capital_flow_direction": "↑流入增加",
+      "logic_summary": "涨停池显示元件10只、光学光电9只、半导体3只、其他电子3只，兆易创新、京东方A、香农芯创、深南电路、鹏鼎控股等容量核心集中在电子链。",
+      "next_observation": "观察兆易创新、京东方A、深南电路、鹏鼎控股、普冉股份能否继续维持容量和板块带动。",
+      "representative_stocks": "兆易创新,京东方A,深南电路,鹏鼎控股,普冉股份",
+      "validation_horizon_days": 3,
+      "validation_horizon_label": "短线T+3"
+    },
+    {
+      "rank_no": 2,
+      "theme_name": "玻璃玻纤/新材料",
+      "grade": "A",
+      "lifecycle_stage": "发酵期",
+      "capital_strength": "中强",
+      "sustainability_score": 82,
+      "expected_heat": "★★★★☆",
+      "capital_flow_direction": "↑流入增加",
+      "logic_summary": "涨停池显示玻璃玻纤5只，旗滨集团、中材科技3板，中国巨石、凯盛新能等涨停，材料方向形成分支。",
+      "next_observation": "看中材科技、旗滨集团、中国巨石是否继续扩散。",
+      "representative_stocks": "中材科技,旗滨集团,中国巨石,凯盛新能",
+      "validation_horizon_days": 3,
+      "validation_horizon_label": "短线T+3"
+    },
+    {
+      "rank_no": 3,
+      "theme_name": "设备/工程链",
+      "grade": "B",
+      "lifecycle_stage": "分歧期",
+      "capital_strength": "中",
+      "sustainability_score": 72,
+      "expected_heat": "★★★☆☆",
+      "capital_flow_direction": "↑流入增加",
+      "logic_summary": "专业工程4只、通用设备3只、专用设备3只，延续6月16日设备扩散，但不及电子硬件主线集中。",
+      "next_observation": "观察中核科技、杭电股份、亚翔集成等是否继续承接。",
+      "representative_stocks": "中核科技,杭电股份,亚翔集成,中国化学",
+      "validation_horizon_days": 3,
+      "validation_horizon_label": "短线T+3"
+    }
+  ],
+  "leader_candidates": [
+    {
+      "leader_type": "市场总龙头",
+      "stock_name": "华正新材",
+      "stock_code": "603186",
+      "sector": "元件",
+      "board_height": 3,
+      "grade": "S",
+      "status": "换手",
+      "reason": "元件方向3连板，涨停池显示成交约36.03亿元，承接电子硬件高度和主线一致性。",
+      "validation_horizon_days": 3,
+      "validation_horizon_label": "短线T+3"
+    },
+    {
+      "leader_type": "主线龙头",
+      "stock_name": "兆易创新",
+      "stock_code": "603986",
+      "sector": "半导体",
+      "board_height": 1,
+      "grade": "S",
+      "status": "加速",
+      "reason": "半导体容量核心，涨停池成交额约315.99亿元，主力资金字段约9.24亿元。",
+      "validation_horizon_days": 3,
+      "validation_horizon_label": "短线T+3"
+    },
+    {
+      "leader_type": "容量核心",
+      "stock_name": "京东方Ａ",
+      "stock_code": "000725",
+      "sector": "光学光电",
+      "board_height": 1,
+      "grade": "S",
+      "status": "加速",
+      "reason": "光学光电容量核心，涨停池成交额约121.34亿元，主力资金字段约14.41亿元。",
+      "validation_horizon_days": 3,
+      "validation_horizon_label": "短线T+3"
+    },
+    {
+      "leader_type": "趋势龙头",
+      "stock_name": "深南电路",
+      "stock_code": "002916",
+      "sector": "元件",
+      "board_height": 1,
+      "grade": "A",
+      "status": "加速",
+      "reason": "PCB/元件方向容量涨停，成交额约51.95亿元。",
+      "validation_horizon_days": 1,
+      "validation_horizon_label": "短期T+1"
+    },
+    {
+      "leader_type": "情绪龙",
+      "stock_name": "中材科技",
+      "stock_code": "002080",
+      "sector": "玻璃玻纤",
+      "board_height": 3,
+      "grade": "A",
+      "status": "换手",
+      "reason": "玻璃玻纤分支3板且成交额约66.99亿元，分支辨识度高。",
+      "validation_horizon_days": 1,
+      "validation_horizon_label": "短期T+1"
+    }
+  ],
+  "hotspot_factors": [],
+  "source_manifest": {
+    "sources": [
+      {
+        "name": "本地正式复盘缓存",
+        "type": "formal_report_cache",
+        "trade_date": "2026-06-17",
+        "note": "用于测试云端数据 URL 链路；正式云端上线后应替换为云端原始数据采集包。"
+      }
+    ],
+    "snapshots": []
+  },
+  "data_conflicts": [
+    "东方财富跌停池返回tc=1但pool为空，采用跌停数量1、不采用明细。板块主力资金接口空响应，无法确认净流入/净流出排名。上涨/下跌家数采用东方财富三指数实时接口上证和深证市场字段合计：上涨1626、下跌3589；创业板字段仅作指数内参考，未重复计入总家数。"
+  ],
+  "confidence_score": 45
+}
