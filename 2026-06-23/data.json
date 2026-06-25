@@ -1,0 +1,213 @@
+{
+  "trade_date": "2026-06-23",
+  "data_layer_version": "cloud-data-v1-local-public-cache",
+  "generated_at": "2026-06-25T17:44:59",
+  "data_status": "本地正式复盘缓存导出",
+  "market_index": {
+    "sh_index": 4106.25,
+    "sh_change_pct": -1.37,
+    "sz_index": 15854.2,
+    "sz_change_pct": -3.17,
+    "cyb_index": 4192.19,
+    "cyb_change_pct": -3.84,
+    "turnover_amount_billion": 34400.0,
+    "turnover_delta_billion": -2964.0
+  },
+  "market_breadth": {
+    "up_count": null,
+    "down_count": null
+  },
+  "limit_up_down": {
+    "limit_up_count": 96,
+    "limit_down_count": null,
+    "max_board_height": 5,
+    "max_board_stock_name": "江钨装备",
+    "max_board_stock_code": "600397"
+  },
+  "capital_flow": {
+    "inflow_top": [
+      {
+        "flow_type": "流入",
+        "target_type": "板块",
+        "target_name": "医药生物",
+        "target_code": null,
+        "net_amount_billion": 1.26,
+        "rank_no": 1,
+        "notes": "证券时报/新浪数据宝：医药生物主力资金净流入12.55亿元，居申万一级行业首位。"
+      },
+      {
+        "flow_type": "流入",
+        "target_type": "板块",
+        "target_name": "银行",
+        "target_code": null,
+        "net_amount_billion": 0.93,
+        "rank_no": 2,
+        "notes": "证券时报/新浪数据宝：银行行业主力资金净流入9.27亿元。"
+      },
+      {
+        "flow_type": "流入",
+        "target_type": "板块",
+        "target_name": "煤炭/建筑装饰/纺织服饰",
+        "target_code": null,
+        "net_amount_billion": null,
+        "rank_no": 3,
+        "notes": "证券时报/新浪数据宝：煤炭、建筑装饰、纺织服饰主力净流入均超1亿元，精确金额无法确认。"
+      }
+    ],
+    "outflow_top": [
+      {
+        "flow_type": "流出",
+        "target_type": "市场",
+        "target_name": "沪深两市主力资金",
+        "target_code": null,
+        "net_amount_billion": -98.11,
+        "rank_no": 1,
+        "notes": "证券时报/新浪数据宝：沪深两市主力资金净流出981.07亿元。"
+      },
+      {
+        "flow_type": "流出",
+        "target_type": "板块",
+        "target_name": "有色金属",
+        "target_code": null,
+        "net_amount_billion": null,
+        "rank_no": 1,
+        "notes": "行业跌幅居前且多只核心跌停；主力净流出精确金额无法确认。"
+      },
+      {
+        "flow_type": "流出",
+        "target_type": "板块",
+        "target_name": "PCB/MLCC/AI硬件",
+        "target_code": null,
+        "net_amount_billion": null,
+        "rank_no": 2,
+        "notes": "财联社披露PCB、MLCC跌幅靠前，科技权重大票多数下跌；主力净流出精确金额无法确认。"
+      }
+    ],
+    "notes": "由本地正式复盘缓存导出，非云端原始采集。"
+  },
+  "theme_candidates": [
+    {
+      "rank_no": 1,
+      "theme_name": "医药/创新药",
+      "grade": "S",
+      "lifecycle_stage": "发酵期",
+      "capital_strength": "强",
+      "sustainability_score": 86,
+      "expected_heat": "★★★★☆",
+      "capital_flow_direction": "↑流入增加",
+      "logic_summary": "周期类型短线T+3：医药板块在指数大跌日逆势领涨，十余只成分股涨停；证券时报/新浪资金文显示医药生物主力净流入12.55亿元居首，催化包括稳外资方案中药品分段生产实施细则以及创新药BD出海关注。",
+      "next_observation": "观察海欣股份、新华制药、海南海药、亨迪药业、睿智医药能否延续板块宽度和资金承接。",
+      "representative_stocks": "海欣股份,新华制药,海南海药,亨迪药业,睿智医药",
+      "validation_horizon_days": 3,
+      "validation_horizon_label": "短线T+3"
+    },
+    {
+      "rank_no": 2,
+      "theme_name": "大金融/银行证券",
+      "grade": "A",
+      "lifecycle_stage": "分歧期",
+      "capital_strength": "中强",
+      "sustainability_score": 78,
+      "expected_heat": "★★★☆☆",
+      "capital_flow_direction": "↑流入增加",
+      "logic_summary": "周期类型短线T+3：银行领涨、证券反复活跃，长江证券2连板、银之杰20cm涨停；但财联社指出券商互金多股冲高回落，同花顺、东方财富整体溢价有限，属于昨日强主线后的接力分化。",
+      "next_observation": "观察长江证券、银之杰、华安证券、东方财富能否避免集体冲高回落。",
+      "representative_stocks": "长江证券,银之杰,华安证券,东方财富,广发证券",
+      "validation_horizon_days": 3,
+      "validation_horizon_label": "短线T+3"
+    },
+    {
+      "rank_no": 3,
+      "theme_name": "功率半导体/电子特气/液冷",
+      "grade": "A-",
+      "lifecycle_stage": "发酵期",
+      "capital_strength": "中",
+      "sustainability_score": 73,
+      "expected_heat": "★★★☆☆",
+      "capital_flow_direction": "↑流入增加",
+      "logic_summary": "周期类型短线T+3：科技权重普遍调整，但功率半导体、电子特气和液冷出现高低切，上海贝岭、华微电子、凯美特气、水发燃气、大元泵业等活跃；催化来自MCU/功率半导体涨价、日本酸素上调氦气价格及英伟达Rubin全液冷。",
+      "next_observation": "观察上海贝岭、华微电子、凯美特气、水发燃气、大元泵业能否独立于高位科技股杀跌。",
+      "representative_stocks": "上海贝岭,华微电子,凯美特气,水发燃气,大元泵业",
+      "validation_horizon_days": 3,
+      "validation_horizon_label": "短线T+3"
+    }
+  ],
+  "leader_candidates": [
+    {
+      "leader_type": "市场总龙头",
+      "stock_name": "江钨装备",
+      "stock_code": "600397",
+      "sector": "有色金属/钨",
+      "board_height": 5,
+      "grade": "S",
+      "status": "高位分歧",
+      "reason": "周期类型短期T+1：财联社披露江钨装备5连板，为全市场连续高度；龙虎榜三日榜总净买入5.25亿元。但有色板块整体退潮，定位为市场总龙头和情绪高度，不定义为当日主线龙头。",
+      "validation_horizon_days": 1,
+      "validation_horizon_label": "短期T+1"
+    },
+    {
+      "leader_type": "主线龙头",
+      "stock_name": "海欣股份",
+      "stock_code": "600851",
+      "sector": "医药/创新药",
+      "board_height": 3,
+      "grade": "A",
+      "status": "换手",
+      "reason": "周期类型短线T+3：东方财富转载财联社连板分析披露海欣股份3连板，所在创新药方向领涨，医药生物为当日行业资金净流入第一。",
+      "validation_horizon_days": 3,
+      "validation_horizon_label": "短线T+3"
+    },
+    {
+      "leader_type": "容量核心",
+      "stock_name": "新华制药",
+      "stock_code": "000756",
+      "sector": "医药/创新药",
+      "board_height": 1,
+      "grade": "A",
+      "status": "反包",
+      "reason": "周期类型短线T+3：收评列示新华制药涨停；证券时报流感概念资金文披露新华制药主力净流入7444.21万元，属于医药方向容量代表之一。",
+      "validation_horizon_days": 3,
+      "validation_horizon_label": "短线T+3"
+    },
+    {
+      "leader_type": "情绪龙",
+      "stock_name": "长江证券",
+      "stock_code": "000783",
+      "sector": "证券",
+      "board_height": 2,
+      "grade": "A-",
+      "status": "接力分歧",
+      "reason": "周期类型短期T+1：证券板块反复活跃，长江证券2连板；金融界龙虎榜文披露长江证券龙虎榜单日净买入额3.43亿元居前，但金融主线整体从强势转为分歧。",
+      "validation_horizon_days": 1,
+      "validation_horizon_label": "短期T+1"
+    },
+    {
+      "leader_type": "趋势龙头",
+      "stock_name": "华特气体",
+      "stock_code": "688268",
+      "sector": "电子特气",
+      "board_height": 0,
+      "grade": "A-",
+      "status": "趋势新高",
+      "reason": "周期类型中期T+7：电子特气概念内部轮动，华特气体涨超13%并创历史新高；但中船特气停牌核查后板块仍需验证承接。",
+      "validation_horizon_days": 7,
+      "validation_horizon_label": "中期T+7"
+    }
+  ],
+  "hotspot_factors": [],
+  "source_manifest": {
+    "sources": [
+      {
+        "name": "本地正式复盘缓存",
+        "type": "formal_report_cache",
+        "trade_date": "2026-06-23",
+        "note": "用于测试云端数据 URL 链路；正式云端上线后应替换为云端原始数据采集包。"
+      }
+    ],
+    "snapshots": []
+  },
+  "data_conflicts": [
+    "涨停数量冲突：财联社焦点复盘和涨停分析披露96股涨停、50股炸板、封板率66%；东方财富转载财联社连板股分析披露94股涨停；金融界涨跌停温度计搜索摘要显示涨停123、跌停53但页面正文未稳定呈现同一数据。最终涨停采用96，原因是任务优先级中财联社优先且有焦点复盘与涨停分析两处一致。成交额冲突：财联社、东方财富、金融界收评披露沪深两市成交额3.44万亿元、缩量2964亿元；新浪热点摘要披露全市场成交额34660亿元，金融界龙虎榜文披露3.47万亿元。最终采用3.44万亿元和-2964亿元，原因是财联社与东方财富收评一致。上涨/下跌家数冲突：财联社和东方财富收评只披露超2700只上涨，金融界龙虎榜文披露超2600股上涨、超2700股下跌，其他来源披露接近2800只上涨；无优先来源精确收盘家数，最终UP_COUNT和DOWN_COUNT留空并记为无法确认。跌停家数：优先来源未披露精确跌停数，LIMIT_DOWN_COUNT留空并记为无法确认。"
+  ],
+  "confidence_score": 45
+}
