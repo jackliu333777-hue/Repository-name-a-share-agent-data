@@ -1,0 +1,10 @@
+{
+  "version": 1,
+  "trade_date": "2026-06-17",
+  "created_at": "2026-06-25T17:44:59",
+  "data_path": "/Users/jacky/Documents/A股票/reports/cloud-data-public/2026-06-17/data.json",
+  "confidence_score": 45,
+  "data_status": "本地正式复盘缓存导出",
+  "source_count": 1,
+  "boundary": "local_public_cache_for_cloud_url_bootstrap"
+}
