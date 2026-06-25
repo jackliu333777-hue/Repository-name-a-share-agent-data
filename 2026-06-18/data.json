@@ -1,0 +1,213 @@
+{
+  "trade_date": "2026-06-18",
+  "data_layer_version": "cloud-data-v1-local-public-cache",
+  "generated_at": "2026-06-25T17:44:59",
+  "data_status": "本地正式复盘缓存导出",
+  "market_index": {
+    "sh_index": 4090.48,
+    "sh_change_pct": -0.43,
+    "sz_index": 16030.7,
+    "sz_change_pct": 0.94,
+    "cyb_index": 4252.39,
+    "cyb_change_pct": 2.05,
+    "turnover_amount_billion": 33317.0,
+    "turnover_delta_billion": 2177.0
+  },
+  "market_breadth": {
+    "up_count": 2023,
+    "down_count": 3395
+  },
+  "limit_up_down": {
+    "limit_up_count": 91,
+    "limit_down_count": 12,
+    "max_board_height": 4,
+    "max_board_stock_name": "旭光电子",
+    "max_board_stock_code": "600353"
+  },
+  "capital_flow": {
+    "inflow_top": [
+      {
+        "flow_type": "流入",
+        "target_type": "板块",
+        "target_name": "AI算力硬件/通信设备",
+        "target_code": null,
+        "net_amount_billion": null,
+        "rank_no": 1,
+        "notes": "光迅科技成交约104.78亿元，通鼎互联2板；公开收评显示CPO、算力硬件产业链领涨。"
+      },
+      {
+        "flow_type": "流入",
+        "target_type": "板块",
+        "target_name": "半导体/芯片产业链",
+        "target_code": null,
+        "net_amount_billion": null,
+        "rank_no": 2,
+        "notes": "半导体涨停4只，寒武纪大涨并创历史新高，科创50涨3.84%。"
+      },
+      {
+        "flow_type": "流入",
+        "target_type": "板块",
+        "target_name": "小金属/稀土",
+        "target_code": null,
+        "net_amount_billion": null,
+        "rank_no": 3,
+        "notes": "小金属涨停5只，中钨高新、盛和资源大成交涨停。"
+      }
+    ],
+    "outflow_top": [
+      {
+        "flow_type": "流出",
+        "target_type": "板块",
+        "target_name": "保险/大金融",
+        "target_code": null,
+        "net_amount_billion": null,
+        "rank_no": 1,
+        "notes": "公开收评显示保险、证券等大金融板块跌幅居前，未确认具体净流出金额。"
+      },
+      {
+        "flow_type": "流出",
+        "target_type": "板块",
+        "target_name": "电力/公用事业",
+        "target_code": null,
+        "net_amount_billion": null,
+        "rank_no": 2,
+        "notes": "公开收评显示电力、公用事业跌幅居前，深南电A跌停；未确认具体净流出金额。"
+      },
+      {
+        "flow_type": "流出",
+        "target_type": "板块",
+        "target_name": "煤炭/资源权重",
+        "target_code": null,
+        "net_amount_billion": null,
+        "rank_no": 3,
+        "notes": "公开收评显示煤炭开采加工跌幅居前；未确认具体净流出金额。"
+      }
+    ],
+    "notes": "由本地正式复盘缓存导出，非云端原始采集。"
+  },
+  "theme_candidates": [
+    {
+      "rank_no": 1,
+      "theme_name": "AI算力硬件/通信设备/半导体/PCB",
+      "grade": "S",
+      "lifecycle_stage": "主升期",
+      "capital_strength": "强",
+      "sustainability_score": 93,
+      "expected_heat": "★★★★★",
+      "capital_flow_direction": "↑流入增加",
+      "logic_summary": "通信设备4只、半导体4只、元件3只、其他电子2只、消费电子2只涨停，光迅科技成交约104.78亿元，AI算力硬件在成交、涨停扩散和辨识度上继续领先。",
+      "next_observation": "观察光迅科技、寒武纪、中际旭创、新易盛、中京电子能否维持容量强度和板块扩散。",
+      "representative_stocks": "光迅科技,寒武纪,中际旭创,新易盛,中京电子",
+      "validation_horizon_days": 3,
+      "validation_horizon_label": "短线T+3"
+    },
+    {
+      "rank_no": 2,
+      "theme_name": "小金属/稀土/工业金属",
+      "grade": "A",
+      "lifecycle_stage": "发酵期",
+      "capital_strength": "中强",
+      "sustainability_score": 84,
+      "expected_heat": "★★★★☆",
+      "capital_flow_direction": "↑流入增加",
+      "logic_summary": "小金属5只、工业金属2只涨停，中钨高新、盛和资源、江西铜业等大成交品种上榜，稀土、金属新材料和小金属处于涨幅前列。",
+      "next_observation": "看中钨高新、盛和资源、江西铜业、东方锆业能否继续承接资源分支资金。",
+      "representative_stocks": "中钨高新,盛和资源,江西铜业,东方锆业",
+      "validation_horizon_days": 3,
+      "validation_horizon_label": "短线T+3"
+    },
+    {
+      "rank_no": 3,
+      "theme_name": "非金属材料/培育钻石/新材料",
+      "grade": "A",
+      "lifecycle_stage": "发酵期",
+      "capital_strength": "中",
+      "sustainability_score": 78,
+      "expected_heat": "★★★★☆",
+      "capital_flow_direction": "↑流入增加",
+      "logic_summary": "非金属材料3只涨停，金博股份2板；公开收评显示培育钻石、非金属材料涨幅居前，是AI硬件外的发酵分支。",
+      "next_observation": "观察金博股份、力量钻石、黄河旋风等是否继续扩散。",
+      "representative_stocks": "金博股份,力量钻石,黄河旋风",
+      "validation_horizon_days": 3,
+      "validation_horizon_label": "短线T+3"
+    }
+  ],
+  "leader_candidates": [
+    {
+      "leader_type": "市场总龙头",
+      "stock_name": "旭光电子",
+      "stock_code": "600353",
+      "sector": "其他电子",
+      "board_height": 4,
+      "grade": "S",
+      "status": "加速",
+      "reason": "东方财富涨停池显示4连板，为当日最高连板，且属于电子链高度标。",
+      "validation_horizon_days": 1,
+      "validation_horizon_label": "短期T+1"
+    },
+    {
+      "leader_type": "主线龙头",
+      "stock_name": "光迅科技",
+      "stock_code": "002281",
+      "sector": "通信设备",
+      "board_height": 1,
+      "grade": "S",
+      "status": "加速",
+      "reason": "CPO/通信设备容量核心，涨停池成交约104.78亿元，公开收评称4天2板并创历史新高。",
+      "validation_horizon_days": 3,
+      "validation_horizon_label": "短线T+3"
+    },
+    {
+      "leader_type": "趋势龙头",
+      "stock_name": "寒武纪",
+      "stock_code": "688256",
+      "sector": "半导体",
+      "board_height": 0,
+      "grade": "S",
+      "status": "加速",
+      "reason": "公开收评显示寒武纪盘中涨超14%并创历史新高，带动半导体和AI算力硬件情绪。",
+      "validation_horizon_days": 7,
+      "validation_horizon_label": "中期T+7"
+    },
+    {
+      "leader_type": "补涨龙",
+      "stock_name": "中京电子",
+      "stock_code": "002579",
+      "sector": "元件",
+      "board_height": 2,
+      "grade": "A",
+      "status": "加速",
+      "reason": "PCB/元件方向2连板，成交约14.22亿元，承接主线补涨扩散。",
+      "validation_horizon_days": 1,
+      "validation_horizon_label": "短期T+1"
+    },
+    {
+      "leader_type": "资金核心",
+      "stock_name": "中钨高新",
+      "stock_code": "000657",
+      "sector": "小金属",
+      "board_height": 1,
+      "grade": "A",
+      "status": "换手",
+      "reason": "小金属方向大成交涨停，成交约85.68亿元，承接资源分支资金。",
+      "validation_horizon_days": 3,
+      "validation_horizon_label": "短线T+3"
+    }
+  ],
+  "hotspot_factors": [],
+  "source_manifest": {
+    "sources": [
+      {
+        "name": "本地正式复盘缓存",
+        "type": "formal_report_cache",
+        "trade_date": "2026-06-18",
+        "note": "用于测试云端数据 URL 链路；正式云端上线后应替换为云端原始数据采集包。"
+      }
+    ],
+    "snapshots": []
+  },
+  "data_conflicts": [
+    "涨跌家数不同来源存在差异：中国证券报口径上涨2023、下跌3395；澎湃/Wind口径上涨2057、下跌3361。最终采用中国证券报/数据宝同源收评口径2023/3395，原因是与成交额33317亿元同篇披露且更贴近全市场描述。东方财富跌停池返回tc=12但pool为空，采用跌停数量12，不采用明细。"
+  ],
+  "confidence_score": 45
+}
