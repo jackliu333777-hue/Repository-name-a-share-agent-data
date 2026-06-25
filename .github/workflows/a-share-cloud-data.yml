@@ -1,0 +1,70 @@
+name: A股 Agent 云端数据层
+
+on:
+  workflow_dispatch:
+    inputs:
+      trade_date:
+        description: "交易日期 YYYY-MM-DD，留空则使用 Asia/Shanghai 今日"
+        required: false
+        default: ""
+  schedule:
+    # A股收盘后运行：北京时间周一至周五 15:40。
+    - cron: "40 7 * * 1-5"
+
+jobs:
+  cloud-data-layer:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    permissions:
+      contents: read
+      actions: read
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Determine trade date
+        id: date
+        shell: bash
+        run: |
+          if [[ -n "${{ github.event.inputs.trade_date }}" ]]; then
+            echo "trade_date=${{ github.event.inputs.trade_date }}" >> "$GITHUB_OUTPUT"
+          else
+            echo "trade_date=$(TZ=Asia/Shanghai date +%F)" >> "$GITHUB_OUTPUT"
+          fi
+
+      - name: Pull standard cloud data package
+        shell: bash
+        env:
+          A_SHARE_CLOUD_DATA_URL_TEMPLATE: ${{ secrets.A_SHARE_CLOUD_DATA_SOURCE_URL_TEMPLATE }}
+        run: |
+          if [[ -z "${A_SHARE_CLOUD_DATA_URL_TEMPLATE:-}" ]]; then
+            echo "A_SHARE_CLOUD_DATA_SOURCE_URL_TEMPLATE 未配置，跳过云端数据包拉取。"
+            echo "本工作流模板已就绪，但还没有绑定真实数据源。"
+            exit 0
+          fi
+          python3 tools/bin/pull_cloud_market_data.py \
+            --date "${{ steps.date.outputs.trade_date }}" \
+            --output-root reports/cloud-data
+
+      - name: Validate generated package
+        shell: bash
+        run: |
+          if [[ ! -f "reports/cloud-data/${{ steps.date.outputs.trade_date }}/data.json" ]]; then
+            echo "未生成数据包，通常是因为数据源 Secret 尚未配置。"
+            exit 0
+          fi
+          python3 tools/bin/check_cloud_market_data.py \
+            --db data/stock.db \
+            --cloud-root reports/cloud-data \
+            --date "${{ steps.date.outputs.trade_date }}" \
+            --fail-on-missing
+
+      - name: Upload cloud data artifact
+        if: ${{ hashFiles(format('reports/cloud-data/{0}/data.json', steps.date.outputs.trade_date)) != '' }}
+        uses: actions/upload-artifact@v4
+        with:
+          name: a-share-cloud-data-${{ steps.date.outputs.trade_date }}
+          path: |
+            reports/cloud-data/${{ steps.date.outputs.trade_date }}/data.json
+            reports/cloud-data/${{ steps.date.outputs.trade_date }}/manifest.json
+          retention-days: 30
