@@ -16,7 +16,7 @@ jobs:
     runs-on: ubuntu-latest
     timeout-minutes: 20
     permissions:
-      contents: read
+      contents: write
       actions: read
     steps:
       - name: Checkout
@@ -32,39 +32,43 @@ jobs:
             echo "trade_date=$(TZ=Asia/Shanghai date +%F)" >> "$GITHUB_OUTPUT"
           fi
 
-      - name: Pull standard cloud data package
+      - name: Generate cloud P1 data package
         shell: bash
-        env:
-          A_SHARE_CLOUD_DATA_URL_TEMPLATE: ${{ secrets.A_SHARE_CLOUD_DATA_SOURCE_URL_TEMPLATE }}
         run: |
-          if [[ -z "${A_SHARE_CLOUD_DATA_URL_TEMPLATE:-}" ]]; then
-            echo "A_SHARE_CLOUD_DATA_SOURCE_URL_TEMPLATE 未配置，跳过云端数据包拉取。"
-            echo "本工作流模板已就绪，但还没有绑定真实数据源。"
-            exit 0
-          fi
-          python3 tools/bin/pull_cloud_market_data.py \
+          python3 tools/bin/collect_cloud_market_data.py \
             --date "${{ steps.date.outputs.trade_date }}" \
-            --output-root reports/cloud-data
+            --output-root . \
+            --update-index
 
       - name: Validate generated package
         shell: bash
         run: |
-          if [[ ! -f "reports/cloud-data/${{ steps.date.outputs.trade_date }}/data.json" ]]; then
-            echo "未生成数据包，通常是因为数据源 Secret 尚未配置。"
-            exit 0
-          fi
           python3 tools/bin/check_cloud_market_data.py \
-            --db data/stock.db \
-            --cloud-root reports/cloud-data \
+            --db /tmp/nonexistent-a-share-agent-cloud.db \
+            --cloud-root . \
             --date "${{ steps.date.outputs.trade_date }}" \
             --fail-on-missing
 
+      - name: Publish package to GitHub Pages source
+        shell: bash
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add "${{ steps.date.outputs.trade_date }}/data.json" \
+                  "${{ steps.date.outputs.trade_date }}/manifest.json" \
+                  latest.json index.html
+          if git diff --cached --quiet; then
+            echo "No cloud P1 package changes to publish."
+          else
+            git commit -m "Publish cloud P1 data ${{ steps.date.outputs.trade_date }}"
+            git push
+          fi
+
       - name: Upload cloud data artifact
-        if: ${{ hashFiles(format('reports/cloud-data/{0}/data.json', steps.date.outputs.trade_date)) != '' }}
         uses: actions/upload-artifact@v4
         with:
           name: a-share-cloud-data-${{ steps.date.outputs.trade_date }}
           path: |
-            reports/cloud-data/${{ steps.date.outputs.trade_date }}/data.json
-            reports/cloud-data/${{ steps.date.outputs.trade_date }}/manifest.json
+            ${{ steps.date.outputs.trade_date }}/data.json
+            ${{ steps.date.outputs.trade_date }}/manifest.json
           retention-days: 30
