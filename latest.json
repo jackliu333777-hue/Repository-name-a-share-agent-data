@@ -1,7 +1,7 @@
 {
-  "trade_date": "2026-06-24",
-  "data_path": "/Users/jacky/Documents/A股票/reports/cloud-data-public/2026-06-24/data.json",
-  "manifest_path": "/Users/jacky/Documents/A股票/reports/cloud-data-public/2026-06-24/manifest.json",
+  "trade_date": "2026-06-25",
+  "data_path": "/Users/jacky/Documents/A股票/reports/cloud-data-public/2026-06-25/data.json",
+  "manifest_path": "/Users/jacky/Documents/A股票/reports/cloud-data-public/2026-06-25/manifest.json",
   "confidence_score": 45,
   "data_status": "本地正式复盘缓存导出"
 }
