@@ -1,0 +1,213 @@
+{
+  "trade_date": "2026-06-25",
+  "data_layer_version": "cloud-data-v1-local-public-cache",
+  "generated_at": "2026-06-25T20:20:06",
+  "data_status": "本地正式复盘缓存导出",
+  "market_index": {
+    "sh_index": 4120.28,
+    "sh_change_pct": 0.23,
+    "sz_index": 16344.08,
+    "sz_change_pct": 1.82,
+    "cyb_index": 4371.99,
+    "cyb_change_pct": 2.84,
+    "turnover_amount_billion": 3594.291,
+    "turnover_delta_billion": 309.956
+  },
+  "market_breadth": {
+    "up_count": 1231,
+    "down_count": 4225
+  },
+  "limit_up_down": {
+    "limit_up_count": 86,
+    "limit_down_count": 91,
+    "max_board_height": 5,
+    "max_board_stock_name": "兴业科技",
+    "max_board_stock_code": "002674"
+  },
+  "capital_flow": {
+    "inflow_top": [
+      {
+        "flow_type": "流入",
+        "target_type": "板块",
+        "target_name": "电子",
+        "target_code": null,
+        "net_amount_billion": 112.48,
+        "rank_no": 1,
+        "notes": "证券时报数据宝披露电子行业主力资金净流入112.48亿元，行业净流入第一。"
+      },
+      {
+        "flow_type": "流入",
+        "target_type": "个股",
+        "target_name": "新易盛",
+        "target_code": "300502",
+        "net_amount_billion": 36.99,
+        "rank_no": 1,
+        "notes": "证券时报数据宝披露新易盛主力资金净流入36.99亿元居首，特大单净流入43.45亿元居首。"
+      },
+      {
+        "flow_type": "流入",
+        "target_type": "板块",
+        "target_name": "非银金融",
+        "target_code": null,
+        "net_amount_billion": 23.99,
+        "rank_no": 2,
+        "notes": "证券时报数据宝披露非银金融主力资金净流入23.99亿元，指数权重助攻。"
+      }
+    ],
+    "outflow_top": [
+      {
+        "flow_type": "流出",
+        "target_type": "板块",
+        "target_name": "电力设备",
+        "target_code": null,
+        "net_amount_billion": -69.71,
+        "rank_no": 1,
+        "notes": "证券时报数据宝披露电力设备行业主力资金净流出69.71亿元，行业流出第一。"
+      },
+      {
+        "flow_type": "流出",
+        "target_type": "个股",
+        "target_name": "光迅科技",
+        "target_code": "002281",
+        "net_amount_billion": -20.9,
+        "rank_no": 1,
+        "notes": "证券时报数据宝披露光迅科技主力资金净流出20.90亿元居首，通信内部出现分化。"
+      },
+      {
+        "flow_type": "流出",
+        "target_type": "板块",
+        "target_name": "有色金属",
+        "target_code": null,
+        "net_amount_billion": -36.97,
+        "rank_no": 2,
+        "notes": "证券时报数据宝披露有色金属主力资金净流出36.97亿元，贵金属和资源方向退潮。"
+      }
+    ],
+    "notes": "由本地正式复盘缓存导出，非云端原始采集。"
+  },
+  "theme_candidates": [
+    {
+      "rank_no": 1,
+      "theme_name": "半导体/存储芯片/CPO/AI硬件",
+      "grade": "S",
+      "lifecycle_stage": "主升期",
+      "capital_strength": "强",
+      "sustainability_score": 94,
+      "expected_heat": "★★★★☆",
+      "capital_flow_direction": "↑流入增加",
+      "logic_summary": "周期类型短线T+3：电子行业主力净流入112.48亿元且特大单净流入171.96亿元居首，存储芯片、CPO、先进封装、PCB多分支共振，新易盛、北京君正、长电科技、中科曙光、TCL科技等容量核心获得资金集中。",
+      "next_observation": "观察科技权重是否继续承接，重点看新易盛、北京君正、兆易创新、长电科技、中科曙光、TCL科技。",
+      "representative_stocks": "新易盛,北京君正,兆易创新,长电科技,中科曙光,TCL科技",
+      "validation_horizon_days": 3,
+      "validation_horizon_label": "短线T+3"
+    },
+    {
+      "rank_no": 2,
+      "theme_name": "电子元器件/先进封装/PCB",
+      "grade": "A",
+      "lifecycle_stage": "发酵期",
+      "capital_strength": "中强",
+      "sustainability_score": 86,
+      "expected_heat": "★★★☆☆",
+      "capital_flow_direction": "↑流入增加",
+      "logic_summary": "周期类型短线T+3：长电科技2连板并续创历史新高，PCB方向中京电子、中材科技、红板科技、超声电子涨停，东山精密、沪电股份、风华高科等资金净流入居前，是科技主线的扩散分支。",
+      "next_observation": "观察先进封装、PCB和被动元件是否维持涨停宽度，重点看长电科技、东山精密、沪电股份、风华高科、中京电子。",
+      "representative_stocks": "长电科技,东山精密,沪电股份,风华高科,中京电子",
+      "validation_horizon_days": 3,
+      "validation_horizon_label": "短线T+3"
+    },
+    {
+      "rank_no": 3,
+      "theme_name": "非银金融/券商",
+      "grade": "B",
+      "lifecycle_stage": "分歧期",
+      "capital_strength": "中",
+      "sustainability_score": 74,
+      "expected_heat": "★★★☆☆",
+      "capital_flow_direction": "↑流入增加",
+      "logic_summary": "周期类型短线T+3：非银金融主力净流入23.99亿元、特大单净流入29.68亿元，东方财富获资金流入，长江证券4天3板；但主线辨识度和涨停扩散弱于科技，定位为指数权重助攻。",
+      "next_observation": "观察东方财富、长江证券能否继续支撑指数，若金融资金转弱则降为护盘分支。",
+      "representative_stocks": "东方财富,长江证券",
+      "validation_horizon_days": 3,
+      "validation_horizon_label": "短线T+3"
+    }
+  ],
+  "leader_candidates": [
+    {
+      "leader_type": "市场总龙头",
+      "stock_name": "新易盛",
+      "stock_code": "300502",
+      "sector": "CPO/AI硬件",
+      "board_height": 0,
+      "grade": "S",
+      "status": "加速",
+      "reason": "周期类型短线T+3：主力资金净流入36.99亿元居首，特大单净流入43.45亿元居首，收涨9.94%且成交额约405.88亿元，CPO和AI硬件容量辨识度最高。",
+      "validation_horizon_days": 3,
+      "validation_horizon_label": "短线T+3"
+    },
+    {
+      "leader_type": "主线龙头",
+      "stock_name": "北京君正",
+      "stock_code": "300223",
+      "sector": "存储芯片",
+      "board_height": 1,
+      "grade": "S",
+      "status": "加速",
+      "reason": "周期类型短期T+1：存储芯片概念爆发，北京君正20cm涨停，特大单净流入17.54亿元，代表存储芯片弹性和短期情绪强度。",
+      "validation_horizon_days": 1,
+      "validation_horizon_label": "短期T+1"
+    },
+    {
+      "leader_type": "趋势龙头",
+      "stock_name": "兆易创新",
+      "stock_code": "603986",
+      "sector": "存储芯片",
+      "board_height": 0,
+      "grade": "S",
+      "status": "加速",
+      "reason": "周期类型中期T+7：多只千亿存储股盘中创新高，兆易创新作为存储芯片容量趋势代表继续创新高，但公司后续提示风险，需以趋势和资金持续性验证。",
+      "validation_horizon_days": 7,
+      "validation_horizon_label": "中期T+7"
+    },
+    {
+      "leader_type": "情绪龙",
+      "stock_name": "兴业科技",
+      "stock_code": "002674",
+      "sector": "轻工制造",
+      "board_height": 5,
+      "grade": "A",
+      "status": "加速",
+      "reason": "周期类型短期T+1：财联社和证券时报均显示兴业科技为5连板高度股之一，代表连板高度；但所属板块并非第一主线，不定义为主线龙头。",
+      "validation_horizon_days": 1,
+      "validation_horizon_label": "短期T+1"
+    },
+    {
+      "leader_type": "资金核心",
+      "stock_name": "长电科技",
+      "stock_code": "600584",
+      "sector": "先进封装",
+      "board_height": 2,
+      "grade": "A",
+      "status": "加速",
+      "reason": "周期类型短线T+3：长电科技2连板且4天3板，特大单净流入16.94亿元，先进封装分支辨识度高。",
+      "validation_horizon_days": 3,
+      "validation_horizon_label": "短线T+3"
+    }
+  ],
+  "hotspot_factors": [],
+  "source_manifest": {
+    "sources": [
+      {
+        "name": "本地正式复盘缓存",
+        "type": "formal_report_cache",
+        "trade_date": "2026-06-25",
+        "note": "用于测试云端数据 URL 链路；正式云端上线后应替换为云端原始数据采集包。"
+      }
+    ],
+    "snapshots": []
+  },
+  "data_conflicts": [
+    "成交额冲突：证券时报披露沪深两市合计成交35942.91亿元、较上一交易日增加3099.56亿元；21财经披露沪深两市成交额3.62万亿元、放量3120亿元；财联社/新浪片段披露3.59万亿元、放量3100亿元。最终采用证券时报精确数值35942.91亿元和3099.56亿元。上涨/下跌家数冲突：21财经披露全市场1231只上涨、4225只下跌；证券时报披露沪深两市1199只上涨、3940只下跌；证券之星片段披露1231只上涨、4228只下跌。最终采用21财经全市场口径1231/4225。涨停/跌停冲突：财联社焦点复盘披露86股涨停、近80只个股报收跌停；证券时报披露不含当日上市新股94只涨停、91只跌停。最终涨停按财联社优先采用86，跌停因财联社未给精确数值采用证券时报91。东方财富本地curl接口本次为空响应，无法二次确认。"
+  ],
+  "confidence_score": 45
+}
