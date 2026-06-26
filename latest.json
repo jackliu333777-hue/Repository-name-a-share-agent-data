@@ -1,7 +1,7 @@
 {
   "trade_date": "2026-06-25",
-  "data_path": "/Users/jacky/Documents/A股票/reports/cloud-data-public/2026-06-25/data.json",
-  "manifest_path": "/Users/jacky/Documents/A股票/reports/cloud-data-public/2026-06-25/manifest.json",
-  "confidence_score": 45,
-  "data_status": "本地正式复盘缓存导出"
+  "data_path": "2026-06-25/data.json",
+  "manifest_path": "2026-06-25/manifest.json",
+  "confidence_score": 83,
+  "data_status": "云端自动采集-收盘基础行情"
 }
