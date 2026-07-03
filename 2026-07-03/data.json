@@ -1,0 +1,166 @@
+{
+  "trade_date": "2026-07-03",
+  "data_layer_version": "cloud-p1-v2-github-actions",
+  "generated_at": "2026-07-03T10:16:56",
+  "data_status": "云端自动采集-收盘基础行情",
+  "market_index": {
+    "sh_index": 4043.64,
+    "sh_change_pct": 0.37,
+    "sz_index": 15597.51,
+    "sz_change_pct": 0.64,
+    "cyb_index": 4019.93,
+    "cyb_change_pct": 0.07,
+    "turnover_amount_billion": null,
+    "turnover_delta_billion": null
+  },
+  "market_breadth": {
+    "up_count": null,
+    "down_count": null,
+    "notes": "云端P1当前未接入稳定上涨/下跌家数源，P2必须二次核验。"
+  },
+  "limit_up_down": {
+    "limit_up_count": null,
+    "limit_down_count": null,
+    "max_board_height": null,
+    "max_board_stock_name": "",
+    "max_board_stock_code": "",
+    "notes": "云端P1当前未接入稳定涨停/跌停/连板高度源，P2必须二次核验。"
+  },
+  "capital_flow": {
+    "inflow_top": [],
+    "outflow_top": [],
+    "notes": "云端P1当前未接入稳定资金流源，禁止据此推断资金迁移。"
+  },
+  "theme_candidates": [],
+  "leader_candidates": [],
+  "hotspot_factors": [],
+  "source_manifest": {
+    "sources": [
+      {
+        "name": "腾讯行情指数接口",
+        "type": "quote_index",
+        "url": "https://qt.gtimg.cn/q=sh000001,sz399001,sz399006",
+        "ok": true,
+        "error": "",
+        "trade_date": "2026-07-03"
+      },
+      {
+        "name": "新浪指数行情接口",
+        "type": "quote_index",
+        "url": "https://hq.sinajs.cn/list=sh000001,sz399001,sz399006",
+        "ok": true,
+        "error": "",
+        "trade_date": "2026-07-03"
+      }
+    ],
+    "snapshots": [
+      {
+        "name": "腾讯行情指数接口",
+        "rows": [
+          {
+            "symbol": "sh000001",
+            "name": "上证指数",
+            "code": "000001",
+            "latest": 4043.64,
+            "prev_close": 4028.9,
+            "open": 4031.34,
+            "volume": 602009738.0,
+            "time": "20260703161448",
+            "change": 14.74,
+            "change_pct": 0.37
+          },
+          {
+            "symbol": "sz399001",
+            "name": "深证成指",
+            "code": "399001",
+            "latest": 15597.51,
+            "prev_close": 15498.81,
+            "open": 15480.12,
+            "volume": 785895029.0,
+            "time": "20260703161436",
+            "change": 98.7,
+            "change_pct": 0.64
+          },
+          {
+            "symbol": "sz399006",
+            "name": "创业板指",
+            "code": "399006",
+            "latest": 4019.93,
+            "prev_close": 4017.27,
+            "open": 4010.82,
+            "volume": 228453195.0,
+            "time": "20260703161451",
+            "change": 2.66,
+            "change_pct": 0.07
+          }
+        ]
+      },
+      {
+        "name": "新浪指数行情接口",
+        "rows": [
+          {
+            "symbol": "sh000001",
+            "name": "上证指数",
+            "latest": 4043.6432,
+            "prev_close": 4028.9038,
+            "volume": 602009738.0,
+            "amount": 1465563104854.0,
+            "trade_date": "2026-07-03",
+            "trade_time": "15:30:39",
+            "change_pct": 0.37
+          },
+          {
+            "symbol": "sz399001",
+            "name": "深证成指",
+            "latest": 15597.512,
+            "prev_close": 15498.811,
+            "volume": 78548548047.0,
+            "amount": 1716880481973.333,
+            "trade_date": "2026-07-03",
+            "trade_time": "15:00:03",
+            "change_pct": 0.64
+          },
+          {
+            "symbol": "sz399006",
+            "name": "创业板指",
+            "latest": 4019.934,
+            "prev_close": 4017.273,
+            "volume": 22845319540.0,
+            "amount": 803808036623.08,
+            "trade_date": "2026-07-03",
+            "trade_time": "15:00:03",
+            "change_pct": 0.07
+          }
+        ]
+      }
+    ],
+    "boundary": "cloud_p1_data_only_no_trade_advice_no_formal_judgement"
+  },
+  "data_conflicts": [
+    {
+      "field": "sh_index",
+      "existing": 4043.64,
+      "incoming": 4043.6432,
+      "source": "新浪指数行情接口",
+      "adopted": 4043.64,
+      "reason": "优先采用首个成功行情源，冲突保留供 P2 判断。"
+    },
+    {
+      "field": "sz_index",
+      "existing": 15597.51,
+      "incoming": 15597.512,
+      "source": "新浪指数行情接口",
+      "adopted": 15597.51,
+      "reason": "优先采用首个成功行情源，冲突保留供 P2 判断。"
+    },
+    {
+      "field": "cyb_index",
+      "existing": 4019.93,
+      "incoming": 4019.934,
+      "source": "新浪指数行情接口",
+      "adopted": 4019.93,
+      "reason": "优先采用首个成功行情源，冲突保留供 P2 判断。"
+    }
+  ],
+  "confidence_score": 83
+}
