@@ -1,7 +1,7 @@
 {
-  "trade_date": "2026-07-22",
-  "data_path": "2026-07-22/data.json",
-  "manifest_path": "2026-07-22/manifest.json",
+  "trade_date": "2026-07-23",
+  "data_path": "2026-07-23/data.json",
+  "manifest_path": "2026-07-23/manifest.json",
   "confidence_score": 83,
   "data_status": "云端自动采集-收盘基础行情"
 }
