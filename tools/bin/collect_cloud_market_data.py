@@ -642,7 +642,7 @@ def update_static_index(out_root, latest):
 <body>
 <h1>A股 Agent 云端P1数据包</h1>
 <p>本目录由 GitHub Actions 云端优先生成。P1 只提供数据证据层，不生成正式复盘，不给交易建议。</p>
-<p>URL 模板: <code>https://jackliu333777-hue.github.io/Repository-name-a-share-agent-data/{{trade_date}}/data.json</code></p>
+<p>URL 模板: <code>https://raw.githubusercontent.com/jackliu333777-hue/Repository-name-a-share-agent-data/main/{{trade_date}}/data.json</code></p>
 <ul>{links}</ul>
 </body>
 </html>

@@ -203,7 +203,7 @@ def main():
     parser.add_argument("--cloud-root", default=str(DEFAULT_CLOUD_ROOT))
     parser.add_argument("--date", default="")
     parser.add_argument("--fail-on-missing", action="store_true")
-    parser.add_argument("--require-capital-related", action="store_true", help="要求资金流入/流出Top3每方向都有3-5只关联标的")
+    parser.add_argument("--require-capital-related", action="store_true", help="要求资金流入Top3及最多3个真实净流出方向，每方向都有3-5只关联标的")
     args = parser.parse_args()
 
     trade_date = args.date or latest_formal_trade_date(args.db)
