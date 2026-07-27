@@ -1,7 +1,7 @@
 {
   "trade_date": "2026-07-27",
   "data_layer_version": "cloud-p1-v2-github-actions",
-  "generated_at": "2026-07-27T07:45:04",
+  "generated_at": "2026-07-27T10:55:48",
   "data_status": "云端自动采集-收盘行情与资金流",
   "market_index": {
     "sh_index": 3858.25,
@@ -391,7 +391,7 @@
         "type": "capital_flow",
         "url": "https://push2.eastmoney.com/api/qt/clist/get",
         "ok": false,
-        "error": "Remote end closed connection without response",
+        "error": "HTTP Error 502: Bad Gateway",
         "trade_date": "2026-07-27",
         "date_verified": true,
         "observation_type": "current_snapshot"
@@ -419,7 +419,7 @@
             "prev_close": 3814.2,
             "open": 3808.9,
             "volume": 504879454.0,
-            "time": "20260727154420",
+            "time": "20260727161420",
             "change": 44.05,
             "change_pct": 1.15
           },
@@ -431,7 +431,7 @@
             "prev_close": 13774.68,
             "open": 13768.6,
             "volume": 571360929.0,
-            "time": "20260727154406",
+            "time": "20260727161406",
             "change": 374.05,
             "change_pct": 2.72
           },
@@ -443,7 +443,7 @@
             "prev_close": 3480.87,
             "open": 3482.04,
             "volume": 175227394.0,
-            "time": "20260727154421",
+            "time": "20260727161421",
             "change": 109.92,
             "change_pct": 3.16
           }
