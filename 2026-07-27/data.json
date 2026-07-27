@@ -1,0 +1,512 @@
+{
+  "trade_date": "2026-07-27",
+  "data_layer_version": "cloud-p1-v2-github-actions",
+  "generated_at": "2026-07-27T07:45:04",
+  "data_status": "云端自动采集-收盘行情与资金流",
+  "market_index": {
+    "sh_index": 3858.25,
+    "sh_change_pct": 1.15,
+    "sz_index": 14148.73,
+    "sz_change_pct": 2.72,
+    "cyb_index": 3590.79,
+    "cyb_change_pct": 3.16,
+    "turnover_amount_billion": null,
+    "turnover_delta_billion": null
+  },
+  "market_breadth": {
+    "up_count": null,
+    "down_count": null,
+    "notes": "云端P1当前未接入稳定上涨/下跌家数源，P2必须二次核验。"
+  },
+  "limit_up_down": {
+    "limit_up_count": null,
+    "limit_down_count": null,
+    "max_board_height": null,
+    "max_board_stock_name": "",
+    "max_board_stock_code": "",
+    "notes": "云端P1当前未接入稳定涨停/跌停/连板高度源，P2必须二次核验。"
+  },
+  "capital_flow": {
+    "inflow_top": [
+      {
+        "target_name": "电子器件",
+        "target_code": "0/new_dzqj",
+        "target_type": "板块",
+        "net_amount_billion": 122.676,
+        "net_amount_yuan": 12267555060.5,
+        "main_net_pct": 0.0666226,
+        "source": "新浪资金流向",
+        "leading_stock_name": "珈伟新能",
+        "leading_stock_code": "sz300317",
+        "flow_type": "流入",
+        "rank_no": 1,
+        "related_stocks": [
+          {
+            "name": "风华高科",
+            "code": "000636",
+            "symbol": "sz000636",
+            "net_amount_billion": 23.809,
+            "main_net_amount_billion": 19.508,
+            "main_net_pct": 0.352642,
+            "change_pct": 10.0,
+            "latest_price": 44.24,
+            "rank_basis": "板块内主力净额排序",
+            "source": "新浪资金流向"
+          },
+          {
+            "name": "京东方Ａ",
+            "code": "000725",
+            "symbol": "sz000725",
+            "net_amount_billion": 14.59,
+            "main_net_amount_billion": 11.465,
+            "main_net_pct": 0.122535,
+            "change_pct": 3.11,
+            "latest_price": 5.97,
+            "rank_basis": "板块内主力净额排序",
+            "source": "新浪资金流向"
+          },
+          {
+            "name": "太极实业",
+            "code": "600667",
+            "symbol": "sh600667",
+            "net_amount_billion": 13.918,
+            "main_net_amount_billion": 9.792,
+            "main_net_pct": 0.285715,
+            "change_pct": 10.01,
+            "latest_price": 17.92,
+            "rank_basis": "板块内主力净额排序",
+            "source": "新浪资金流向"
+          },
+          {
+            "name": "贤丰控股",
+            "code": "002141",
+            "symbol": "sz002141",
+            "net_amount_billion": 6.245,
+            "main_net_amount_billion": 4.713,
+            "main_net_pct": 0.465056,
+            "change_pct": 9.98,
+            "latest_price": 5.73,
+            "rank_basis": "板块内主力净额排序",
+            "source": "新浪资金流向"
+          },
+          {
+            "name": "金安国纪",
+            "code": "002636",
+            "symbol": "sz002636",
+            "net_amount_billion": 4.756,
+            "main_net_amount_billion": 4.125,
+            "main_net_pct": 0.172392,
+            "change_pct": 10.0,
+            "latest_price": 63.69,
+            "rank_basis": "板块内主力净额排序",
+            "source": "新浪资金流向"
+          }
+        ],
+        "related_stock_count": 5,
+        "related_stock_requirement_status": "满足",
+        "related_stock_notes": ""
+      },
+      {
+        "target_name": "电子信息",
+        "target_code": "0/new_dzxx",
+        "target_type": "板块",
+        "net_amount_billion": 110.082,
+        "net_amount_yuan": 11008232932.14,
+        "main_net_pct": 0.0698102,
+        "source": "新浪资金流向",
+        "leading_stock_name": "行云科技",
+        "leading_stock_code": "sz300209",
+        "flow_type": "流入",
+        "rank_no": 2,
+        "related_stocks": [
+          {
+            "name": "东山精密",
+            "code": "002384",
+            "symbol": "sz002384",
+            "net_amount_billion": 10.616,
+            "main_net_amount_billion": 10.82,
+            "main_net_pct": 0.0662872,
+            "change_pct": 6.17,
+            "latest_price": 211.47,
+            "rank_basis": "板块内主力净额排序",
+            "source": "新浪资金流向"
+          },
+          {
+            "name": "亨通光电",
+            "code": "600487",
+            "symbol": "sh600487",
+            "net_amount_billion": 9.922,
+            "main_net_amount_billion": 9.453,
+            "main_net_pct": 0.11423,
+            "change_pct": 5.91,
+            "latest_price": 55.53,
+            "rank_basis": "板块内主力净额排序",
+            "source": "新浪资金流向"
+          },
+          {
+            "name": "通鼎互联",
+            "code": "002491",
+            "symbol": "sz002491",
+            "net_amount_billion": 4.694,
+            "main_net_amount_billion": 3.919,
+            "main_net_pct": 0.126614,
+            "change_pct": 5.47,
+            "latest_price": 16.57,
+            "rank_basis": "板块内主力净额排序",
+            "source": "新浪资金流向"
+          },
+          {
+            "name": "永鼎股份",
+            "code": "600105",
+            "symbol": "sh600105",
+            "net_amount_billion": 3.061,
+            "main_net_amount_billion": 3.526,
+            "main_net_pct": 0.111068,
+            "change_pct": 4.86,
+            "latest_price": 35.2,
+            "rank_basis": "板块内主力净额排序",
+            "source": "新浪资金流向"
+          },
+          {
+            "name": "岩山科技",
+            "code": "002195",
+            "symbol": "sz002195",
+            "net_amount_billion": 4.663,
+            "main_net_amount_billion": 3.411,
+            "main_net_pct": 0.190031,
+            "change_pct": 5.43,
+            "latest_price": 6.21,
+            "rank_basis": "板块内主力净额排序",
+            "source": "新浪资金流向"
+          }
+        ],
+        "related_stock_count": 5,
+        "related_stock_requirement_status": "满足",
+        "related_stock_notes": ""
+      },
+      {
+        "target_name": "化工行业",
+        "target_code": "0/new_hghy",
+        "target_type": "板块",
+        "net_amount_billion": 71.032,
+        "net_amount_yuan": 7103191133.76,
+        "main_net_pct": 0.0982759,
+        "source": "新浪资金流向",
+        "leading_stock_name": "日科化学",
+        "leading_stock_code": "sz300214",
+        "flow_type": "流入",
+        "rank_no": 3,
+        "related_stocks": [
+          {
+            "name": "雅克科技",
+            "code": "002409",
+            "symbol": "sz002409",
+            "net_amount_billion": 18.102,
+            "main_net_amount_billion": 15.676,
+            "main_net_pct": 0.182892,
+            "change_pct": 10.0,
+            "latest_price": 169.35,
+            "rank_basis": "板块内主力净额排序",
+            "source": "新浪资金流向"
+          },
+          {
+            "name": "多氟多",
+            "code": "002407",
+            "symbol": "sz002407",
+            "net_amount_billion": 7.927,
+            "main_net_amount_billion": 7.22,
+            "main_net_pct": 0.108478,
+            "change_pct": 9.99,
+            "latest_price": 33.57,
+            "rank_basis": "板块内主力净额排序",
+            "source": "新浪资金流向"
+          },
+          {
+            "name": "滨化股份",
+            "code": "601678",
+            "symbol": "sh601678",
+            "net_amount_billion": 4.348,
+            "main_net_amount_billion": 3.184,
+            "main_net_pct": 0.104457,
+            "change_pct": 7.95,
+            "latest_price": 7.06,
+            "rank_basis": "板块内主力净额排序",
+            "source": "新浪资金流向"
+          },
+          {
+            "name": "天齐锂业",
+            "code": "002466",
+            "symbol": "sz002466",
+            "net_amount_billion": 1.642,
+            "main_net_amount_billion": 1.757,
+            "main_net_pct": 0.0903464,
+            "change_pct": 3.01,
+            "latest_price": 45.2,
+            "rank_basis": "板块内主力净额排序",
+            "source": "新浪资金流向"
+          },
+          {
+            "name": "昊华科技",
+            "code": "600378",
+            "symbol": "sh600378",
+            "net_amount_billion": 1.77,
+            "main_net_amount_billion": 1.132,
+            "main_net_pct": 0.0416708,
+            "change_pct": 4.85,
+            "latest_price": 45.82,
+            "rank_basis": "板块内主力净额排序",
+            "source": "新浪资金流向"
+          }
+        ],
+        "related_stock_count": 5,
+        "related_stock_requirement_status": "满足",
+        "related_stock_notes": ""
+      }
+    ],
+    "outflow_top": [
+      {
+        "target_name": "酿酒行业",
+        "target_code": "0/new_ljhy",
+        "target_type": "板块",
+        "net_amount_billion": -0.093,
+        "net_amount_yuan": -9302612.95,
+        "main_net_pct": -0.000933519,
+        "source": "新浪资金流向",
+        "leading_stock_name": "ST通葡",
+        "leading_stock_code": "sh600365",
+        "flow_type": "流出",
+        "rank_no": 1,
+        "related_stocks": [
+          {
+            "name": "贵州茅台",
+            "code": "600519",
+            "symbol": "sh600519",
+            "net_amount_billion": -1.548,
+            "main_net_amount_billion": -2.461,
+            "main_net_pct": -0.0604879,
+            "change_pct": -0.61,
+            "latest_price": 1289.5,
+            "rank_basis": "板块内主力净额排序",
+            "source": "新浪资金流向"
+          },
+          {
+            "name": "五 粮 液",
+            "code": "000858",
+            "symbol": "sz000858",
+            "net_amount_billion": -0.595,
+            "main_net_amount_billion": -0.365,
+            "main_net_pct": -0.0245306,
+            "change_pct": 0.45,
+            "latest_price": 73.9,
+            "rank_basis": "板块内主力净额排序",
+            "source": "新浪资金流向"
+          },
+          {
+            "name": "山西汾酒",
+            "code": "600809",
+            "symbol": "sh600809",
+            "net_amount_billion": 0.376,
+            "main_net_amount_billion": -0.111,
+            "main_net_pct": -0.0102024,
+            "change_pct": 2.05,
+            "latest_price": 123.03,
+            "rank_basis": "板块内主力净额排序",
+            "source": "新浪资金流向"
+          },
+          {
+            "name": "古井贡酒",
+            "code": "000596",
+            "symbol": "sz000596",
+            "net_amount_billion": -0.296,
+            "main_net_amount_billion": -0.048,
+            "main_net_pct": -0.0102728,
+            "change_pct": 0.3,
+            "latest_price": 87.78,
+            "rank_basis": "板块内主力净额排序",
+            "source": "新浪资金流向"
+          },
+          {
+            "name": "酒鬼酒",
+            "code": "000799",
+            "symbol": "sz000799",
+            "net_amount_billion": -0.017,
+            "main_net_amount_billion": -0.032,
+            "main_net_pct": -0.019284,
+            "change_pct": 0.68,
+            "latest_price": 38.3,
+            "rank_basis": "板块内主力净额排序",
+            "source": "新浪资金流向"
+          }
+        ],
+        "related_stock_count": 5,
+        "related_stock_requirement_status": "满足",
+        "related_stock_notes": ""
+      }
+    ],
+    "notes": "云端P1已通过新浪资金流向采集资金流入Top3；覆盖48个板块，当日真实净流出方向仅1个，均已采集且每方向关联3-5只标的。",
+    "market_coverage": {
+      "total_board_count": 48,
+      "positive_count": 47,
+      "negative_count": 1,
+      "zero_count": 0
+    },
+    "outflow_status": "真实净流出方向不足3个，已完整采集",
+    "related_stock_requirement": {
+      "min": 3,
+      "max": 5,
+      "status": "满足",
+      "checked_directions": 4,
+      "passed_directions": 4
+    }
+  },
+  "theme_candidates": [],
+  "leader_candidates": [],
+  "hotspot_factors": [],
+  "source_manifest": {
+    "sources": [
+      {
+        "name": "腾讯行情指数接口",
+        "type": "quote_index",
+        "url": "https://qt.gtimg.cn/q=sh000001,sz399001,sz399006",
+        "ok": true,
+        "error": "",
+        "trade_date": "2026-07-27",
+        "observed_trade_dates": [
+          "2026-07-27"
+        ]
+      },
+      {
+        "name": "新浪指数行情接口",
+        "type": "quote_index",
+        "url": "https://hq.sinajs.cn/list=sh000001,sz399001,sz399006",
+        "ok": true,
+        "error": "",
+        "trade_date": "2026-07-27",
+        "observed_trade_dates": [
+          "2026-07-27"
+        ]
+      },
+      {
+        "name": "东方财富板块资金流",
+        "type": "capital_flow",
+        "url": "https://push2.eastmoney.com/api/qt/clist/get",
+        "ok": false,
+        "error": "Remote end closed connection without response",
+        "trade_date": "2026-07-27",
+        "date_verified": true,
+        "observation_type": "current_snapshot"
+      },
+      {
+        "name": "新浪资金流向",
+        "type": "capital_flow",
+        "url": "https://money.finance.sina.com.cn/quotes_service/api/json_v2.php",
+        "ok": true,
+        "error": "",
+        "trade_date": "2026-07-27",
+        "date_verified": true,
+        "observation_type": "current_snapshot"
+      }
+    ],
+    "snapshots": [
+      {
+        "name": "腾讯行情指数接口",
+        "rows": [
+          {
+            "symbol": "sh000001",
+            "name": "上证指数",
+            "code": "000001",
+            "latest": 3858.25,
+            "prev_close": 3814.2,
+            "open": 3808.9,
+            "volume": 504879454.0,
+            "time": "20260727154420",
+            "change": 44.05,
+            "change_pct": 1.15
+          },
+          {
+            "symbol": "sz399001",
+            "name": "深证成指",
+            "code": "399001",
+            "latest": 14148.73,
+            "prev_close": 13774.68,
+            "open": 13768.6,
+            "volume": 571360929.0,
+            "time": "20260727154406",
+            "change": 374.05,
+            "change_pct": 2.72
+          },
+          {
+            "symbol": "sz399006",
+            "name": "创业板指",
+            "code": "399006",
+            "latest": 3590.79,
+            "prev_close": 3480.87,
+            "open": 3482.04,
+            "volume": 175227394.0,
+            "time": "20260727154421",
+            "change": 109.92,
+            "change_pct": 3.16
+          }
+        ]
+      },
+      {
+        "name": "新浪指数行情接口",
+        "rows": [
+          {
+            "symbol": "sh000001",
+            "name": "上证指数",
+            "latest": 3858.245,
+            "prev_close": 3814.1978,
+            "volume": 504879454.0,
+            "amount": 1031312143065.0,
+            "trade_date": "2026-07-27",
+            "trade_time": "15:30:36",
+            "change_pct": 1.15
+          },
+          {
+            "symbol": "sz399001",
+            "name": "深证成指",
+            "latest": 14148.73,
+            "prev_close": 13774.676,
+            "volume": 57136092946.0,
+            "amount": 1045308334718.688,
+            "trade_date": "2026-07-27",
+            "trade_time": "15:00:03",
+            "change_pct": 2.72
+          },
+          {
+            "symbol": "sz399006",
+            "name": "创业板指",
+            "latest": 3590.787,
+            "prev_close": 3480.87,
+            "volume": 17522739402.0,
+            "amount": 480776651374.99,
+            "trade_date": "2026-07-27",
+            "trade_time": "15:00:03",
+            "change_pct": 3.16
+          }
+        ]
+      }
+    ],
+    "boundary": "cloud_p1_data_only_no_trade_advice_no_formal_judgement"
+  },
+  "data_conflicts": [
+    {
+      "field": "sh_index",
+      "existing": 3858.25,
+      "incoming": 3858.245,
+      "source": "新浪指数行情接口",
+      "adopted": 3858.25,
+      "reason": "优先采用首个成功行情源，冲突保留供 P2 判断。"
+    },
+    {
+      "field": "cyb_index",
+      "existing": 3590.79,
+      "incoming": 3590.787,
+      "source": "新浪指数行情接口",
+      "adopted": 3590.79,
+      "reason": "优先采用首个成功行情源，冲突保留供 P2 判断。"
+    }
+  ],
+  "confidence_score": 100
+}
