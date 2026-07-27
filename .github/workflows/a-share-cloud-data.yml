@@ -32,6 +32,10 @@ jobs:
             echo "trade_date=$(TZ=Asia/Shanghai date +%F)" >> "$GITHUB_OUTPUT"
           fi
 
+      - name: Run cloud data contract tests
+        shell: bash
+        run: bash tests/test_cloud_p1_collector.sh
+
       - name: Generate cloud P1 data package
         shell: bash
         run: |
@@ -47,7 +51,16 @@ jobs:
             --db /tmp/nonexistent-a-share-agent-cloud.db \
             --cloud-root . \
             --date "${{ steps.date.outputs.trade_date }}" \
-            --fail-on-missing
+            --fail-on-missing \
+            --require-capital-related
+
+      - name: Offline replay generated package
+        shell: bash
+        run: |
+          python3 tools/bin/replay_cloud_market_data.py \
+            --cloud-root . \
+            --date "${{ steps.date.outputs.trade_date }}" \
+            --output /tmp/cloud-replay-${{ steps.date.outputs.trade_date }}.json
 
       - name: Publish package to GitHub Pages source
         shell: bash
