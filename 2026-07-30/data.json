@@ -1,0 +1,395 @@
+{
+  "trade_date": "2026-07-30",
+  "data_layer_version": "cloud-p1-v2-github-actions",
+  "generated_at": "2026-07-30T10:02:04",
+  "data_status": "云端自动采集-收盘行情与资金流",
+  "market_index": {
+    "sh_index": 3804.69,
+    "sh_change_pct": -0.62,
+    "sz_index": 13285.8,
+    "sz_change_pct": -2.73,
+    "cyb_index": 3244.62,
+    "cyb_change_pct": -3.97,
+    "turnover_amount_billion": null,
+    "turnover_delta_billion": null
+  },
+  "market_breadth": {
+    "up_count": null,
+    "down_count": null,
+    "notes": "云端P1当前未接入稳定上涨/下跌家数源，P2必须二次核验。"
+  },
+  "limit_up_down": {
+    "limit_up_count": null,
+    "limit_down_count": null,
+    "max_board_height": null,
+    "max_board_stock_name": "",
+    "max_board_stock_code": "",
+    "notes": "云端P1当前未接入稳定涨停/跌停/连板高度源，P2必须二次核验。"
+  },
+  "capital_flow": {
+    "inflow_top": [
+      {
+        "target_name": "银行",
+        "target_code": "BK1283",
+        "target_type": "板块",
+        "net_amount_billion": 24.576,
+        "net_amount_yuan": 2457556736.0,
+        "main_net_pct": 5.34,
+        "source": "东方财富板块资金流",
+        "flow_type": "流入",
+        "rank_no": 1,
+        "related_stocks": [
+          {
+            "name": "招商银行",
+            "code": "600036",
+            "net_amount_billion": 9.314,
+            "main_net_pct": 16.88,
+            "change_pct": 2.24,
+            "latest_price": 40.55,
+            "rank_basis": "板块成分股主力净额排序",
+            "source": "东方财富板块成分股资金流"
+          },
+          {
+            "name": "农业银行",
+            "code": "601288",
+            "net_amount_billion": 4.323,
+            "main_net_pct": 11.15,
+            "change_pct": 2.6,
+            "latest_price": 7.11,
+            "rank_basis": "板块成分股主力净额排序",
+            "source": "东方财富板块成分股资金流"
+          },
+          {
+            "name": "平安银行",
+            "code": "000001",
+            "net_amount_billion": 2.443,
+            "main_net_pct": 7.65,
+            "change_pct": 2.93,
+            "latest_price": 11.61,
+            "rank_basis": "板块成分股主力净额排序",
+            "source": "东方财富板块成分股资金流"
+          },
+          {
+            "name": "浦发银行",
+            "code": "600000",
+            "net_amount_billion": 2.413,
+            "main_net_pct": 15.62,
+            "change_pct": 4.63,
+            "latest_price": 9.71,
+            "rank_basis": "板块成分股主力净额排序",
+            "source": "东方财富板块成分股资金流"
+          },
+          {
+            "name": "交通银行",
+            "code": "601328",
+            "net_amount_billion": 2.403,
+            "main_net_pct": 9.73,
+            "change_pct": 3.24,
+            "latest_price": 7.32,
+            "rank_basis": "板块成分股主力净额排序",
+            "source": "东方财富板块成分股资金流"
+          }
+        ],
+        "related_stock_count": 5,
+        "related_stock_requirement_status": "满足",
+        "related_stock_notes": ""
+      },
+      {
+        "target_name": "银行Ⅱ",
+        "target_code": "BK0475",
+        "target_type": "板块",
+        "net_amount_billion": 24.576,
+        "net_amount_yuan": 2457556736.0,
+        "main_net_pct": 5.34,
+        "source": "东方财富板块资金流",
+        "flow_type": "流入",
+        "rank_no": 2,
+        "related_stocks": [
+          {
+            "name": "招商银行",
+            "code": "600036",
+            "net_amount_billion": 9.314,
+            "main_net_pct": 16.88,
+            "change_pct": 2.24,
+            "latest_price": 40.55,
+            "rank_basis": "板块成分股主力净额排序",
+            "source": "东方财富板块成分股资金流"
+          },
+          {
+            "name": "农业银行",
+            "code": "601288",
+            "net_amount_billion": 4.323,
+            "main_net_pct": 11.15,
+            "change_pct": 2.6,
+            "latest_price": 7.11,
+            "rank_basis": "板块成分股主力净额排序",
+            "source": "东方财富板块成分股资金流"
+          },
+          {
+            "name": "平安银行",
+            "code": "000001",
+            "net_amount_billion": 2.443,
+            "main_net_pct": 7.65,
+            "change_pct": 2.93,
+            "latest_price": 11.61,
+            "rank_basis": "板块成分股主力净额排序",
+            "source": "东方财富板块成分股资金流"
+          },
+          {
+            "name": "浦发银行",
+            "code": "600000",
+            "net_amount_billion": 2.413,
+            "main_net_pct": 15.62,
+            "change_pct": 4.63,
+            "latest_price": 9.71,
+            "rank_basis": "板块成分股主力净额排序",
+            "source": "东方财富板块成分股资金流"
+          },
+          {
+            "name": "交通银行",
+            "code": "601328",
+            "net_amount_billion": 2.403,
+            "main_net_pct": 9.73,
+            "change_pct": 3.24,
+            "latest_price": 7.32,
+            "rank_basis": "板块成分股主力净额排序",
+            "source": "东方财富板块成分股资金流"
+          }
+        ],
+        "related_stock_count": 5,
+        "related_stock_requirement_status": "满足",
+        "related_stock_notes": ""
+      },
+      {
+        "target_name": "股份制银行Ⅲ",
+        "target_code": "BK1610",
+        "target_type": "板块",
+        "net_amount_billion": 17.009,
+        "net_amount_yuan": 1700890112.0,
+        "main_net_pct": 9.57,
+        "source": "东方财富板块资金流",
+        "flow_type": "流入",
+        "rank_no": 3,
+        "related_stocks": [
+          {
+            "name": "招商银行",
+            "code": "600036",
+            "net_amount_billion": 9.314,
+            "main_net_pct": 16.88,
+            "change_pct": 2.24,
+            "latest_price": 40.55,
+            "rank_basis": "板块成分股主力净额排序",
+            "source": "东方财富板块成分股资金流"
+          },
+          {
+            "name": "平安银行",
+            "code": "000001",
+            "net_amount_billion": 2.443,
+            "main_net_pct": 7.65,
+            "change_pct": 2.93,
+            "latest_price": 11.61,
+            "rank_basis": "板块成分股主力净额排序",
+            "source": "东方财富板块成分股资金流"
+          },
+          {
+            "name": "浦发银行",
+            "code": "600000",
+            "net_amount_billion": 2.413,
+            "main_net_pct": 15.62,
+            "change_pct": 4.63,
+            "latest_price": 9.71,
+            "rank_basis": "板块成分股主力净额排序",
+            "source": "东方财富板块成分股资金流"
+          },
+          {
+            "name": "兴业银行",
+            "code": "601166",
+            "net_amount_billion": 1.591,
+            "main_net_pct": 5.33,
+            "change_pct": 2.74,
+            "latest_price": 19.1,
+            "rank_basis": "板块成分股主力净额排序",
+            "source": "东方财富板块成分股资金流"
+          },
+          {
+            "name": "浙商银行",
+            "code": "601916",
+            "net_amount_billion": 0.593,
+            "main_net_pct": 8.91,
+            "change_pct": 2.37,
+            "latest_price": 3.02,
+            "rank_basis": "板块成分股主力净额排序",
+            "source": "东方财富板块成分股资金流"
+          }
+        ],
+        "related_stock_count": 5,
+        "related_stock_requirement_status": "满足",
+        "related_stock_notes": ""
+      }
+    ],
+    "outflow_top": [],
+    "notes": "云端P1已通过东方财富板块资金流采集资金流入Top3；覆盖80个板块，当日真实净流出方向仅0个，均已采集且每方向关联3-5只标的。",
+    "market_coverage": {
+      "total_board_count": 80,
+      "positive_count": 80,
+      "negative_count": 0,
+      "zero_count": 0
+    },
+    "outflow_status": "真实净流出方向不足3个，已完整采集",
+    "related_stock_requirement": {
+      "min": 3,
+      "max": 5,
+      "status": "满足",
+      "checked_directions": 3,
+      "passed_directions": 3
+    }
+  },
+  "theme_candidates": [],
+  "leader_candidates": [],
+  "hotspot_factors": [],
+  "source_manifest": {
+    "sources": [
+      {
+        "name": "腾讯行情指数接口",
+        "type": "quote_index",
+        "url": "https://qt.gtimg.cn/q=sh000001,sz399001,sz399006",
+        "ok": true,
+        "error": "",
+        "trade_date": "2026-07-30",
+        "observed_trade_dates": [
+          "2026-07-30"
+        ]
+      },
+      {
+        "name": "新浪指数行情接口",
+        "type": "quote_index",
+        "url": "https://hq.sinajs.cn/list=sh000001,sz399001,sz399006",
+        "ok": true,
+        "error": "",
+        "trade_date": "2026-07-30",
+        "observed_trade_dates": [
+          "2026-07-30"
+        ]
+      },
+      {
+        "name": "东方财富板块资金流",
+        "type": "capital_flow",
+        "url": "https://push2.eastmoney.com/api/qt/clist/get",
+        "ok": true,
+        "error": "",
+        "trade_date": "2026-07-30",
+        "date_verified": true,
+        "observation_type": "current_snapshot"
+      }
+    ],
+    "snapshots": [
+      {
+        "name": "腾讯行情指数接口",
+        "rows": [
+          {
+            "symbol": "sh000001",
+            "name": "上证指数",
+            "code": "000001",
+            "latest": 3804.69,
+            "prev_close": 3828.47,
+            "open": 3812.11,
+            "volume": 592298923.0,
+            "time": "20260730161420",
+            "change": -23.78,
+            "change_pct": -0.62
+          },
+          {
+            "symbol": "sz399001",
+            "name": "深证成指",
+            "code": "399001",
+            "latest": 13285.8,
+            "prev_close": 13658.44,
+            "open": 13531.07,
+            "volume": 686984750.0,
+            "time": "20260730161400",
+            "change": -372.64,
+            "change_pct": -2.73
+          },
+          {
+            "symbol": "sz399006",
+            "name": "创业板指",
+            "code": "399006",
+            "latest": 3244.62,
+            "prev_close": 3378.7,
+            "open": 3331.32,
+            "volume": 203836418.0,
+            "time": "20260730161415",
+            "change": -134.08,
+            "change_pct": -3.97
+          }
+        ]
+      },
+      {
+        "name": "新浪指数行情接口",
+        "rows": [
+          {
+            "symbol": "sh000001",
+            "name": "上证指数",
+            "latest": 3804.6926,
+            "prev_close": 3828.469,
+            "volume": 592298923.0,
+            "amount": 1106477266462.0,
+            "trade_date": "2026-07-30",
+            "trade_time": "15:30:36",
+            "change_pct": -0.62
+          },
+          {
+            "symbol": "sz399001",
+            "name": "深证成指",
+            "latest": 13285.801,
+            "prev_close": 13658.443,
+            "volume": 68698474992.0,
+            "amount": 1236331989082.34,
+            "trade_date": "2026-07-30",
+            "trade_time": "15:00:03",
+            "change_pct": -2.73
+          },
+          {
+            "symbol": "sz399006",
+            "name": "创业板指",
+            "latest": 3244.618,
+            "prev_close": 3378.696,
+            "volume": 20383641844.0,
+            "amount": 598474829660.17,
+            "trade_date": "2026-07-30",
+            "trade_time": "15:00:03",
+            "change_pct": -3.97
+          }
+        ]
+      }
+    ],
+    "boundary": "cloud_p1_data_only_no_trade_advice_no_formal_judgement"
+  },
+  "data_conflicts": [
+    {
+      "field": "sh_index",
+      "existing": 3804.69,
+      "incoming": 3804.6926,
+      "source": "新浪指数行情接口",
+      "adopted": 3804.69,
+      "reason": "优先采用首个成功行情源，冲突保留供 P2 判断。"
+    },
+    {
+      "field": "sz_index",
+      "existing": 13285.8,
+      "incoming": 13285.801,
+      "source": "新浪指数行情接口",
+      "adopted": 13285.8,
+      "reason": "优先采用首个成功行情源，冲突保留供 P2 判断。"
+    },
+    {
+      "field": "cyb_index",
+      "existing": 3244.62,
+      "incoming": 3244.618,
+      "source": "新浪指数行情接口",
+      "adopted": 3244.62,
+      "reason": "优先采用首个成功行情源，冲突保留供 P2 判断。"
+    }
+  ],
+  "confidence_score": 100
+}
