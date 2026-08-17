@@ -1,0 +1,395 @@
+{
+  "trade_date": "2026-08-17",
+  "data_layer_version": "cloud-p1-v2-github-actions",
+  "generated_at": "2026-08-17T08:21:56",
+  "data_status": "云端自动采集-收盘行情与资金流",
+  "market_index": {
+    "sh_index": 3982.65,
+    "sh_change_pct": 1.41,
+    "sz_index": 14704.27,
+    "sz_change_pct": 2.44,
+    "cyb_index": 3740.16,
+    "cyb_change_pct": 3.14,
+    "turnover_amount_billion": null,
+    "turnover_delta_billion": null
+  },
+  "market_breadth": {
+    "up_count": null,
+    "down_count": null,
+    "notes": "云端P1当前未接入稳定上涨/下跌家数源，P2必须二次核验。"
+  },
+  "limit_up_down": {
+    "limit_up_count": null,
+    "limit_down_count": null,
+    "max_board_height": null,
+    "max_board_stock_name": "",
+    "max_board_stock_code": "",
+    "notes": "云端P1当前未接入稳定涨停/跌停/连板高度源，P2必须二次核验。"
+  },
+  "capital_flow": {
+    "inflow_top": [
+      {
+        "target_name": "电子",
+        "target_code": "BK1201",
+        "target_type": "板块",
+        "net_amount_billion": 309.465,
+        "net_amount_yuan": 30946467840.0,
+        "main_net_pct": 4.22,
+        "source": "东方财富板块资金流",
+        "flow_type": "流入",
+        "rank_no": 1,
+        "related_stocks": [
+          {
+            "name": "通富微电",
+            "code": "002156",
+            "net_amount_billion": 22.636,
+            "main_net_pct": 22.77,
+            "change_pct": 10.01,
+            "latest_price": 69.26,
+            "rank_basis": "板块成分股主力净额排序",
+            "source": "东方财富板块成分股资金流"
+          },
+          {
+            "name": "京东方Ａ",
+            "code": "000725",
+            "net_amount_billion": 15.683,
+            "main_net_pct": 12.02,
+            "change_pct": 4.65,
+            "latest_price": 6.08,
+            "rank_basis": "板块成分股主力净额排序",
+            "source": "东方财富板块成分股资金流"
+          },
+          {
+            "name": "长电科技",
+            "code": "600584",
+            "net_amount_billion": 15.607,
+            "main_net_pct": 9.86,
+            "change_pct": 9.07,
+            "latest_price": 85.85,
+            "rank_basis": "板块成分股主力净额排序",
+            "source": "东方财富板块成分股资金流"
+          },
+          {
+            "name": "兆易创新",
+            "code": "603986",
+            "net_amount_billion": 15.177,
+            "main_net_pct": 5.9,
+            "change_pct": 6.35,
+            "latest_price": 444.0,
+            "rank_basis": "板块成分股主力净额排序",
+            "source": "东方财富板块成分股资金流"
+          },
+          {
+            "name": "立讯精密",
+            "code": "002475",
+            "net_amount_billion": 12.241,
+            "main_net_pct": 16.7,
+            "change_pct": 3.99,
+            "latest_price": 58.84,
+            "rank_basis": "板块成分股主力净额排序",
+            "source": "东方财富板块成分股资金流"
+          }
+        ],
+        "related_stock_count": 5,
+        "related_stock_requirement_status": "满足",
+        "related_stock_notes": ""
+      },
+      {
+        "target_name": "半导体",
+        "target_code": "BK1036",
+        "target_type": "板块",
+        "net_amount_billion": 195.477,
+        "net_amount_yuan": 19547676672.0,
+        "main_net_pct": 4.98,
+        "source": "东方财富板块资金流",
+        "flow_type": "流入",
+        "rank_no": 2,
+        "related_stocks": [
+          {
+            "name": "通富微电",
+            "code": "002156",
+            "net_amount_billion": 22.636,
+            "main_net_pct": 22.77,
+            "change_pct": 10.01,
+            "latest_price": 69.26,
+            "rank_basis": "板块成分股主力净额排序",
+            "source": "东方财富板块成分股资金流"
+          },
+          {
+            "name": "长电科技",
+            "code": "600584",
+            "net_amount_billion": 15.607,
+            "main_net_pct": 9.86,
+            "change_pct": 9.07,
+            "latest_price": 85.85,
+            "rank_basis": "板块成分股主力净额排序",
+            "source": "东方财富板块成分股资金流"
+          },
+          {
+            "name": "兆易创新",
+            "code": "603986",
+            "net_amount_billion": 15.177,
+            "main_net_pct": 5.9,
+            "change_pct": 6.35,
+            "latest_price": 444.0,
+            "rank_basis": "板块成分股主力净额排序",
+            "source": "东方财富板块成分股资金流"
+          },
+          {
+            "name": "有研新材",
+            "code": "600206",
+            "net_amount_billion": 10.699,
+            "main_net_pct": 28.64,
+            "change_pct": 10.0,
+            "latest_price": 55.86,
+            "rank_basis": "板块成分股主力净额排序",
+            "source": "东方财富板块成分股资金流"
+          },
+          {
+            "name": "德明利",
+            "code": "001309",
+            "net_amount_billion": 5.471,
+            "main_net_pct": 6.1,
+            "change_pct": 7.19,
+            "latest_price": 435.4,
+            "rank_basis": "板块成分股主力净额排序",
+            "source": "东方财富板块成分股资金流"
+          }
+        ],
+        "related_stock_count": 5,
+        "related_stock_requirement_status": "满足",
+        "related_stock_notes": ""
+      },
+      {
+        "target_name": "数字芯片设计",
+        "target_code": "BK1331",
+        "target_type": "板块",
+        "net_amount_billion": 101.927,
+        "net_amount_yuan": 10192652288.0,
+        "main_net_pct": 5.62,
+        "source": "东方财富板块资金流",
+        "flow_type": "流入",
+        "rank_no": 3,
+        "related_stocks": [
+          {
+            "name": "兆易创新",
+            "code": "603986",
+            "net_amount_billion": 15.177,
+            "main_net_pct": 5.9,
+            "change_pct": 6.35,
+            "latest_price": 444.0,
+            "rank_basis": "板块成分股主力净额排序",
+            "source": "东方财富板块成分股资金流"
+          },
+          {
+            "name": "德明利",
+            "code": "001309",
+            "net_amount_billion": 5.471,
+            "main_net_pct": 6.1,
+            "change_pct": 7.19,
+            "latest_price": 435.4,
+            "rank_basis": "板块成分股主力净额排序",
+            "source": "东方财富板块成分股资金流"
+          },
+          {
+            "name": "豪威集团",
+            "code": "603501",
+            "net_amount_billion": 0.446,
+            "main_net_pct": 3.21,
+            "change_pct": 1.16,
+            "latest_price": 92.14,
+            "rank_basis": "板块成分股主力净额排序",
+            "source": "东方财富板块成分股资金流"
+          },
+          {
+            "name": "大为股份",
+            "code": "002213",
+            "net_amount_billion": 0.199,
+            "main_net_pct": 6.21,
+            "change_pct": 2.86,
+            "latest_price": 30.93,
+            "rank_basis": "板块成分股主力净额排序",
+            "source": "东方财富板块成分股资金流"
+          },
+          {
+            "name": "诚邦股份",
+            "code": "603316",
+            "net_amount_billion": 0.099,
+            "main_net_pct": 5.94,
+            "change_pct": 5.99,
+            "latest_price": 15.04,
+            "rank_basis": "板块成分股主力净额排序",
+            "source": "东方财富板块成分股资金流"
+          }
+        ],
+        "related_stock_count": 5,
+        "related_stock_requirement_status": "满足",
+        "related_stock_notes": ""
+      }
+    ],
+    "outflow_top": [],
+    "notes": "云端P1已通过东方财富板块资金流采集资金流入Top3；覆盖80个板块，当日真实净流出方向仅0个，均已采集且每方向关联3-5只标的。",
+    "market_coverage": {
+      "total_board_count": 80,
+      "positive_count": 80,
+      "negative_count": 0,
+      "zero_count": 0
+    },
+    "outflow_status": "真实净流出方向不足3个，已完整采集",
+    "related_stock_requirement": {
+      "min": 3,
+      "max": 5,
+      "status": "满足",
+      "checked_directions": 3,
+      "passed_directions": 3
+    }
+  },
+  "theme_candidates": [],
+  "leader_candidates": [],
+  "hotspot_factors": [],
+  "source_manifest": {
+    "sources": [
+      {
+        "name": "腾讯行情指数接口",
+        "type": "quote_index",
+        "url": "https://qt.gtimg.cn/q=sh000001,sz399001,sz399006",
+        "ok": true,
+        "error": "",
+        "trade_date": "2026-08-17",
+        "observed_trade_dates": [
+          "2026-08-17"
+        ]
+      },
+      {
+        "name": "新浪指数行情接口",
+        "type": "quote_index",
+        "url": "https://hq.sinajs.cn/list=sh000001,sz399001,sz399006",
+        "ok": true,
+        "error": "",
+        "trade_date": "2026-08-17",
+        "observed_trade_dates": [
+          "2026-08-17"
+        ]
+      },
+      {
+        "name": "东方财富板块资金流",
+        "type": "capital_flow",
+        "url": "https://push2.eastmoney.com/api/qt/clist/get",
+        "ok": true,
+        "error": "",
+        "trade_date": "2026-08-17",
+        "date_verified": true,
+        "observation_type": "current_snapshot"
+      }
+    ],
+    "snapshots": [
+      {
+        "name": "腾讯行情指数接口",
+        "rows": [
+          {
+            "symbol": "sh000001",
+            "name": "上证指数",
+            "code": "000001",
+            "latest": 3982.65,
+            "prev_close": 3927.18,
+            "open": 3930.1,
+            "volume": 489834027.0,
+            "time": "20260817161402",
+            "change": 55.47,
+            "change_pct": 1.41
+          },
+          {
+            "symbol": "sz399001",
+            "name": "深证成指",
+            "code": "399001",
+            "latest": 14704.27,
+            "prev_close": 14354.31,
+            "open": 14399.2,
+            "volume": 641864873.0,
+            "time": "20260817161403",
+            "change": 349.96,
+            "change_pct": 2.44
+          },
+          {
+            "symbol": "sz399006",
+            "name": "创业板指",
+            "code": "399006",
+            "latest": 3740.16,
+            "prev_close": 3626.3,
+            "open": 3632.78,
+            "volume": 194278692.0,
+            "time": "20260817161418",
+            "change": 113.86,
+            "change_pct": 3.14
+          }
+        ]
+      },
+      {
+        "name": "新浪指数行情接口",
+        "rows": [
+          {
+            "symbol": "sh000001",
+            "name": "上证指数",
+            "latest": 3982.6535,
+            "prev_close": 3927.1764,
+            "volume": 489834027.0,
+            "amount": 1112818620627.0,
+            "trade_date": "2026-08-17",
+            "trade_time": "15:35:31",
+            "change_pct": 1.41
+          },
+          {
+            "symbol": "sz399001",
+            "name": "深证成指",
+            "latest": 14704.274,
+            "prev_close": 14354.306,
+            "volume": 64186487329.0,
+            "amount": 1274638569156.232,
+            "trade_date": "2026-08-17",
+            "trade_time": "15:00:03",
+            "change_pct": 2.44
+          },
+          {
+            "symbol": "sz399006",
+            "name": "创业板指",
+            "latest": 3740.157,
+            "prev_close": 3626.296,
+            "volume": 19427869202.0,
+            "amount": 629069342009.49,
+            "trade_date": "2026-08-17",
+            "trade_time": "15:00:03",
+            "change_pct": 3.14
+          }
+        ]
+      }
+    ],
+    "boundary": "cloud_p1_data_only_no_trade_advice_no_formal_judgement"
+  },
+  "data_conflicts": [
+    {
+      "field": "sh_index",
+      "existing": 3982.65,
+      "incoming": 3982.6535,
+      "source": "新浪指数行情接口",
+      "adopted": 3982.65,
+      "reason": "优先采用首个成功行情源，冲突保留供 P2 判断。"
+    },
+    {
+      "field": "sz_index",
+      "existing": 14704.27,
+      "incoming": 14704.274,
+      "source": "新浪指数行情接口",
+      "adopted": 14704.27,
+      "reason": "优先采用首个成功行情源，冲突保留供 P2 判断。"
+    },
+    {
+      "field": "cyb_index",
+      "existing": 3740.16,
+      "incoming": 3740.157,
+      "source": "新浪指数行情接口",
+      "adopted": 3740.16,
+      "reason": "优先采用首个成功行情源，冲突保留供 P2 判断。"
+    }
+  ],
+  "confidence_score": 100
+}
