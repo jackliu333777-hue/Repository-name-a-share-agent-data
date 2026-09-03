@@ -1,9 +1,9 @@
 {
   "version": 2,
   "trade_date": "2026-09-03",
-  "created_at": "2026-09-03T12:14:59",
+  "created_at": "2026-09-03T20:29:27",
   "data_path": "2026-09-03/data.json",
-  "sha256": "7bc53f12d508bd2a99985ed2ff549d82faa2809a5e1ff15463776769a6ed8d23",
+  "sha256": "59a97c5316b987529b68ad5c63162d92bc5f236f71153515a2c41acf96a1cd7f",
   "bytes": 22079,
   "confidence_score": 100,
   "data_status": "云端自动采集-收盘行情与资金流",
