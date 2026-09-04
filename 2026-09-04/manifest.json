@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "trade_date": "2026-09-04",
+  "created_at": "2026-09-04T12:15:33",
+  "data_path": "2026-09-04/data.json",
+  "sha256": "b154d9d9964cb92f5ac28c6ae46f7f1e0a3d3b3c29e0e3c12097134784f38408",
+  "bytes": 22069,
+  "confidence_score": 100,
+  "data_status": "云端自动采集-收盘行情与资金流",
+  "source_count": 4,
+  "boundary": "cloud_p1_primary_generated_by_github_actions"
+}
