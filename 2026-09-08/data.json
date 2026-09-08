@@ -1,0 +1,395 @@
+{
+  "trade_date": "2026-09-08",
+  "data_layer_version": "cloud-p1-v2-github-actions",
+  "generated_at": "2026-09-08T12:16:58",
+  "data_status": "云端自动采集-收盘行情与资金流",
+  "market_index": {
+    "sh_index": 3940.55,
+    "sh_change_pct": 0.2,
+    "sz_index": 13703.21,
+    "sz_change_pct": -0.52,
+    "cyb_index": 3359.72,
+    "cyb_change_pct": -1.15,
+    "turnover_amount_billion": null,
+    "turnover_delta_billion": null
+  },
+  "market_breadth": {
+    "up_count": null,
+    "down_count": null,
+    "notes": "云端P1当前未接入稳定上涨/下跌家数源，P2必须二次核验。"
+  },
+  "limit_up_down": {
+    "limit_up_count": null,
+    "limit_down_count": null,
+    "max_board_height": null,
+    "max_board_stock_name": "",
+    "max_board_stock_code": "",
+    "notes": "云端P1当前未接入稳定涨停/跌停/连板高度源，P2必须二次核验。"
+  },
+  "capital_flow": {
+    "inflow_top": [
+      {
+        "target_name": "工业金属",
+        "target_code": "BK1287",
+        "target_type": "板块",
+        "net_amount_billion": 43.18,
+        "net_amount_yuan": 4318001920.0,
+        "main_net_pct": 7.9,
+        "source": "东方财富板块资金流",
+        "flow_type": "流入",
+        "rank_no": 1,
+        "related_stocks": [
+          {
+            "name": "北方铜业",
+            "code": "000737",
+            "net_amount_billion": 8.784,
+            "main_net_pct": 23.1,
+            "change_pct": 9.63,
+            "latest_price": 15.71,
+            "rank_basis": "板块成分股主力净额排序",
+            "source": "东方财富板块成分股资金流"
+          },
+          {
+            "name": "紫金矿业",
+            "code": "601899",
+            "net_amount_billion": 8.732,
+            "main_net_pct": 10.32,
+            "change_pct": 3.01,
+            "latest_price": 33.86,
+            "rank_basis": "板块成分股主力净额排序",
+            "source": "东方财富板块成分股资金流"
+          },
+          {
+            "name": "洛阳钼业",
+            "code": "603993",
+            "net_amount_billion": 6.869,
+            "main_net_pct": 14.81,
+            "change_pct": 3.1,
+            "latest_price": 18.94,
+            "rank_basis": "板块成分股主力净额排序",
+            "source": "东方财富板块成分股资金流"
+          },
+          {
+            "name": "江西铜业",
+            "code": "600362",
+            "net_amount_billion": 4.647,
+            "main_net_pct": 8.34,
+            "change_pct": 5.45,
+            "latest_price": 48.53,
+            "rank_basis": "板块成分股主力净额排序",
+            "source": "东方财富板块成分股资金流"
+          },
+          {
+            "name": "铜陵有色",
+            "code": "000630",
+            "net_amount_billion": 2.006,
+            "main_net_pct": 7.78,
+            "change_pct": 2.51,
+            "latest_price": 6.54,
+            "rank_basis": "板块成分股主力净额排序",
+            "source": "东方财富板块成分股资金流"
+          }
+        ],
+        "related_stock_count": 5,
+        "related_stock_requirement_status": "满足",
+        "related_stock_notes": ""
+      },
+      {
+        "target_name": "基础化工",
+        "target_code": "BK1206",
+        "target_type": "板块",
+        "net_amount_billion": 38.639,
+        "net_amount_yuan": 3863920640.0,
+        "main_net_pct": 3.35,
+        "source": "东方财富板块资金流",
+        "flow_type": "流入",
+        "rank_no": 2,
+        "related_stocks": [
+          {
+            "name": "和邦生物",
+            "code": "603077",
+            "net_amount_billion": 4.261,
+            "main_net_pct": 29.22,
+            "change_pct": 10.0,
+            "latest_price": 2.53,
+            "rank_basis": "板块成分股主力净额排序",
+            "source": "东方财富板块成分股资金流"
+          },
+          {
+            "name": "赤天化",
+            "code": "600227",
+            "net_amount_billion": 3.636,
+            "main_net_pct": 26.33,
+            "change_pct": 9.98,
+            "latest_price": 4.96,
+            "rank_basis": "板块成分股主力净额排序",
+            "source": "东方财富板块成分股资金流"
+          },
+          {
+            "name": "万华化学",
+            "code": "600309",
+            "net_amount_billion": 3.333,
+            "main_net_pct": 12.96,
+            "change_pct": 1.76,
+            "latest_price": 78.09,
+            "rank_basis": "板块成分股主力净额排序",
+            "source": "东方财富板块成分股资金流"
+          },
+          {
+            "name": "新安股份",
+            "code": "600596",
+            "net_amount_billion": 3.316,
+            "main_net_pct": 21.23,
+            "change_pct": 10.02,
+            "latest_price": 12.08,
+            "rank_basis": "板块成分股主力净额排序",
+            "source": "东方财富板块成分股资金流"
+          },
+          {
+            "name": "金牛化工",
+            "code": "600722",
+            "net_amount_billion": 2.881,
+            "main_net_pct": 9.7,
+            "change_pct": 10.02,
+            "latest_price": 19.77,
+            "rank_basis": "板块成分股主力净额排序",
+            "source": "东方财富板块成分股资金流"
+          }
+        ],
+        "related_stock_count": 5,
+        "related_stock_requirement_status": "满足",
+        "related_stock_notes": ""
+      },
+      {
+        "target_name": "铜",
+        "target_code": "BK1615",
+        "target_type": "板块",
+        "net_amount_billion": 34.215,
+        "net_amount_yuan": 3421545984.0,
+        "main_net_pct": 9.09,
+        "source": "东方财富板块资金流",
+        "flow_type": "流入",
+        "rank_no": 3,
+        "related_stocks": [
+          {
+            "name": "北方铜业",
+            "code": "000737",
+            "net_amount_billion": 8.784,
+            "main_net_pct": 23.1,
+            "change_pct": 9.63,
+            "latest_price": 15.71,
+            "rank_basis": "板块成分股主力净额排序",
+            "source": "东方财富板块成分股资金流"
+          },
+          {
+            "name": "紫金矿业",
+            "code": "601899",
+            "net_amount_billion": 8.732,
+            "main_net_pct": 10.32,
+            "change_pct": 3.01,
+            "latest_price": 33.86,
+            "rank_basis": "板块成分股主力净额排序",
+            "source": "东方财富板块成分股资金流"
+          },
+          {
+            "name": "洛阳钼业",
+            "code": "603993",
+            "net_amount_billion": 6.869,
+            "main_net_pct": 14.81,
+            "change_pct": 3.1,
+            "latest_price": 18.94,
+            "rank_basis": "板块成分股主力净额排序",
+            "source": "东方财富板块成分股资金流"
+          },
+          {
+            "name": "江西铜业",
+            "code": "600362",
+            "net_amount_billion": 4.647,
+            "main_net_pct": 8.34,
+            "change_pct": 5.45,
+            "latest_price": 48.53,
+            "rank_basis": "板块成分股主力净额排序",
+            "source": "东方财富板块成分股资金流"
+          },
+          {
+            "name": "铜陵有色",
+            "code": "000630",
+            "net_amount_billion": 2.006,
+            "main_net_pct": 7.78,
+            "change_pct": 2.51,
+            "latest_price": 6.54,
+            "rank_basis": "板块成分股主力净额排序",
+            "source": "东方财富板块成分股资金流"
+          }
+        ],
+        "related_stock_count": 5,
+        "related_stock_requirement_status": "满足",
+        "related_stock_notes": ""
+      }
+    ],
+    "outflow_top": [],
+    "notes": "云端P1已通过东方财富板块资金流采集资金流入Top3；覆盖80个板块，当日真实净流出方向仅0个，均已采集且每方向关联3-5只标的。",
+    "market_coverage": {
+      "total_board_count": 80,
+      "positive_count": 80,
+      "negative_count": 0,
+      "zero_count": 0
+    },
+    "outflow_status": "真实净流出方向不足3个，已完整采集",
+    "related_stock_requirement": {
+      "min": 3,
+      "max": 5,
+      "status": "满足",
+      "checked_directions": 3,
+      "passed_directions": 3
+    }
+  },
+  "theme_candidates": [],
+  "leader_candidates": [],
+  "hotspot_factors": [],
+  "source_manifest": {
+    "sources": [
+      {
+        "name": "腾讯行情指数接口",
+        "type": "quote_index",
+        "url": "https://qt.gtimg.cn/q=sh000001,sz399001,sz399006",
+        "ok": true,
+        "error": "",
+        "trade_date": "2026-09-08",
+        "observed_trade_dates": [
+          "2026-09-08"
+        ]
+      },
+      {
+        "name": "新浪指数行情接口",
+        "type": "quote_index",
+        "url": "https://hq.sinajs.cn/list=sh000001,sz399001,sz399006",
+        "ok": true,
+        "error": "",
+        "trade_date": "2026-09-08",
+        "observed_trade_dates": [
+          "2026-09-08"
+        ]
+      },
+      {
+        "name": "东方财富板块资金流",
+        "type": "capital_flow",
+        "url": "https://push2.eastmoney.com/api/qt/clist/get",
+        "ok": true,
+        "error": "",
+        "trade_date": "2026-09-08",
+        "date_verified": true,
+        "observation_type": "current_snapshot"
+      }
+    ],
+    "snapshots": [
+      {
+        "name": "腾讯行情指数接口",
+        "rows": [
+          {
+            "symbol": "sh000001",
+            "name": "上证指数",
+            "code": "000001",
+            "latest": 3940.55,
+            "prev_close": 3932.7,
+            "open": 3935.55,
+            "volume": 529992688.0,
+            "time": "20260908161403",
+            "change": 7.85,
+            "change_pct": 0.2
+          },
+          {
+            "symbol": "sz399001",
+            "name": "深证成指",
+            "code": "399001",
+            "latest": 13703.21,
+            "prev_close": 13774.91,
+            "open": 13782.86,
+            "volume": 644275504.0,
+            "time": "20260908161448",
+            "change": -71.7,
+            "change_pct": -0.52
+          },
+          {
+            "symbol": "sz399006",
+            "name": "创业板指",
+            "code": "399006",
+            "latest": 3359.72,
+            "prev_close": 3398.68,
+            "open": 3394.35,
+            "volume": 167083577.0,
+            "time": "20260908161403",
+            "change": -38.96,
+            "change_pct": -1.15
+          }
+        ]
+      },
+      {
+        "name": "新浪指数行情接口",
+        "rows": [
+          {
+            "symbol": "sh000001",
+            "name": "上证指数",
+            "latest": 3940.5509,
+            "prev_close": 3932.6992,
+            "volume": 529992688.0,
+            "amount": 915566238949.0,
+            "trade_date": "2026-09-08",
+            "trade_time": "15:35:32",
+            "change_pct": 0.2
+          },
+          {
+            "symbol": "sz399001",
+            "name": "深证成指",
+            "latest": 13703.208,
+            "prev_close": 13774.915,
+            "volume": 64427550432.0,
+            "amount": 1044768430082.386,
+            "trade_date": "2026-09-08",
+            "trade_time": "15:00:03",
+            "change_pct": -0.52
+          },
+          {
+            "symbol": "sz399006",
+            "name": "创业板指",
+            "latest": 3359.716,
+            "prev_close": 3398.681,
+            "volume": 16708357667.0,
+            "amount": 473706635493.98,
+            "trade_date": "2026-09-08",
+            "trade_time": "15:00:03",
+            "change_pct": -1.15
+          }
+        ]
+      }
+    ],
+    "boundary": "cloud_p1_data_only_no_trade_advice_no_formal_judgement"
+  },
+  "data_conflicts": [
+    {
+      "field": "sh_index",
+      "existing": 3940.55,
+      "incoming": 3940.5509,
+      "source": "新浪指数行情接口",
+      "adopted": 3940.55,
+      "reason": "优先采用首个成功行情源，冲突保留供 P2 判断。"
+    },
+    {
+      "field": "sz_index",
+      "existing": 13703.21,
+      "incoming": 13703.208,
+      "source": "新浪指数行情接口",
+      "adopted": 13703.21,
+      "reason": "优先采用首个成功行情源，冲突保留供 P2 判断。"
+    },
+    {
+      "field": "cyb_index",
+      "existing": 3359.72,
+      "incoming": 3359.716,
+      "source": "新浪指数行情接口",
+      "adopted": 3359.72,
+      "reason": "优先采用首个成功行情源，冲突保留供 P2 判断。"
+    }
+  ],
+  "confidence_score": 100
+}
